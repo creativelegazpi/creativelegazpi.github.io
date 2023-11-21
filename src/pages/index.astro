@@ -1,14 +1,18 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import HeroSection from "../components/HeroSection";
-import Hero from "../components/Hero.astro";
 import TeaserSection from "../components/TeaserSection";
+import NavBar from "../components/NavBar";
+import EventSection from "../components/EventSection";
+import ArtistSection from "../components/ArtistSection";
 ---
 
 <Layout title="Creative Legazpi">
-  <!-- <HeroSection client:only /> -->
-  <Hero />
+  <NavBar />
+  <HeroSection client:only />
   <TeaserSection />
+  <EventSection />
+  <ArtistSection />
 </Layout>
 
 <style></style>
