@@ -5,42 +5,34 @@ interface Props {
 
 const { title } = Astro.props;
 import NavBar from "../components/NavBar.jsx";
+import { SEO } from "astro-seo";
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="og:description"
-      content="Mukná Creative Event on Dec 8-10, 2024 in Legazpi City"
-    />
-
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta name="viewport" content="width=device-width" />
-    <meta
-      property="og:image"
-      content="https://drive.google.com/file/d/1kWZjj_y1FHpNkm2aeMkADKwPWI4UPVBI/view?usp=sharing"
+    <SEO
+      title="Creative Legazpi"
+      description="Mukná Creative Event on Dec 8-10, 2024 in Legazpi City"
     />
     <link
       rel="icon"
       type="image/x-icon"
       href="/newheroimgs/Creative Legazpi_LogoOutline.svg"
     />
-    <meta name="og:title" content="Creative Legazpi" />
+
     <title>{title}</title>
   </head>
   <body>
     <!-- <NavBar client:only /> -->
     <slot />
-  </body>
-</html>
-<style is:global>
-  /* * {
+  </body><style is:global>
+    /* * {
     border: 1px solid red;
   } */
-  body {
-    overflow-x: hidden;
-  }
-</style>
+    body {
+      overflow-x: hidden;
+    }
+  </style>
+</html>
