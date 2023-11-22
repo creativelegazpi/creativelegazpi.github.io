@@ -16,18 +16,24 @@ import { SEO } from "astro-seo";
       title="Creative Legazpi"
       description="Mukná Creative Event on Dec 8-10, 2024 in Legazpi City"
       openGraph={{
-        url: "https://creativelegazpi.ph",
-        title: "Creative Legazpi",
-        description: "Mukná Creative Event on Dec 8-10, 2024 in Legazpi City",
-        images: [
+        basic: {
+          title: "Creative Legazpi",
+          description: "Mukná Creative Event on Dec 8-10, 2024 in Legazpi City",
+          image: "/newheroimgs/ogimage.png",
+        },
+      }}
+      extend={{
+        meta: [
           {
-            url: "/newheroimgs/ogimage.png",
-            width: 1200,
-            height: 630,
-            alt: "Creative Legazpi",
+            name: "twitter:image",
+            content: "/newheroimgs/ogimage.png",
+          },
+          { name: "twitter:title", content: "Creative Legazpi" },
+          {
+            name: "twitter:description",
+            content: "Mukná Creative Event on Dec 8-10, 2024 in Legazpi City",
           },
         ],
-        site_name: "Creative Legazpi",
       }}
     />
     <link
