@@ -25,7 +25,7 @@ function EventSection() {
                             href="#"
                             className="text-white text-center text-lg leading-6 whitespace-nowrap bg-black w-[199px] max-w-full items-center mt-14 mb-48 px-5 py-3.5 rounded-[50px] self-end max-md:my-10"
                         >
-                            Learn More
+                            Coming Soon
                         </a>
                     </div>
                 </div>

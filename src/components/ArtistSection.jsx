@@ -13,15 +13,17 @@ function ArtistSection() {
                     tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <div className="flex w-full items-stretch justify-between gap-2.5 -mr-5 mt-10 pr-9 max-md:pr-5">
-                    <a
+                    <button
                         href="#explore"
-                        className="text-white text-center text-lg leading-6 whitespace-nowrap bg-orange-500 grow items-center px-5 py-3 rounded-[50px]"
+                        disabled
+                        className="text-white disabled:brightness-75 text-center text-lg leading-6 whitespace-nowrap bg-orange-500 grow items-center px-5 py-3 rounded-[50px]"
                     >
                         Explore
-                    </a>
+                    </button>
                     <a
                         href="#register"
-                        className="text-white text-center text-lg leading-6 whitespace-nowrap bg-black grow items-center px-5 py-3 rounded-[50px]"
+                        disabled
+                        className="text-white disabled:brightness-75 text-center text-lg leading-6 whitespace-nowrap bg-black grow items-center px-5 py-3 rounded-[50px]"
                     >
                         Register
                     </a>
