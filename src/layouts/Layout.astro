@@ -12,31 +12,52 @@ import { SEO } from "astro-seo";
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <SEO
-      title="Creative Legazpi"
-      description="Mukná Creative Event on Dec 8-10, 2024 in Legazpi City"
-      openGraph={{
-        basic: {
-          title: "Creative Legazpi",
-          type: "website",
-          description: "Mukná Creative Event on Dec 8-10, 2024 in Legazpi City",
-          image: "/newheroimgs/ogimage.png",
-        },
-      }}
-      extend={{
-        meta: [
-          {
-            name: "twitter:image",
-            content: "/newheroimgs/ogimage.png",
-          },
-          { name: "twitter:title", content: "Creative Legazpi" },
-          {
-            name: "twitter:description",
-            content: "Mukná Creative Event on Dec 8-10, 2024 in Legazpi City",
-          },
-        ],
-      }}
+
+    <!-- HTML Meta Tags -->
+    <title>Creative Legazpi</title>
+    <meta
+      name="description"
+      content="Mukná Creative Event on Dec 8-10, 2024 in Legazpi City"
     />
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https://directory-creativelegazpi.vercel.app"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Creative Legazpi" />
+    <meta
+      property="og:description"
+      content="Mukná Creative Event on Dec 8-10, 2024 in Legazpi City"
+    />
+    <meta
+      property="og:image"
+      content="https://directory-creativelegazpi.vercel.app/newheroimgs/ogimage.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:domain"
+      content="directory-creativelegazpi.vercel.app"
+    />
+    <meta
+      property="twitter:url"
+      content="https://directory-creativelegazpi.vercel.app"
+    />
+    <meta name="twitter:title" content="Creative Legazpi" />
+    <meta
+      name="twitter:description"
+      content="Mukná Creative Event on Dec 8-10, 2024 in Legazpi City"
+    />
+    <meta
+      name="twitter:image"
+      content="https://directory-creativelegazpi.vercel.app/newheroimgs/ogimage.png"
+    />
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
     <link
       rel="icon"
       type="image/x-icon"
