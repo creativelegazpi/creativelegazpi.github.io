@@ -15,6 +15,20 @@ import { SEO } from "astro-seo";
     <SEO
       title="Creative Legazpi"
       description="Mukná Creative Event on Dec 8-10, 2024 in Legazpi City"
+      openGraph={{
+        url: "https://creativelegazpi.ph",
+        title: "Creative Legazpi",
+        description: "Mukná Creative Event on Dec 8-10, 2024 in Legazpi City",
+        images: [
+          {
+            url: "/newheroimgs/ogimage.png",
+            width: 1200,
+            height: 630,
+            alt: "Creative Legazpi",
+          },
+        ],
+        site_name: "Creative Legazpi",
+      }}
     />
     <link
       rel="icon"
@@ -27,12 +41,13 @@ import { SEO } from "astro-seo";
   <body>
     <!-- <NavBar client:only /> -->
     <slot />
-  </body><style is:global>
-    /* * {
+    <style is:global>
+      /* * {
     border: 1px solid red;
   } */
-    body {
-      overflow-x: hidden;
-    }
-  </style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
+  </body>
 </html>
