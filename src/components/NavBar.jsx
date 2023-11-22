@@ -1,14 +1,93 @@
 import React from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 function NavBar() {
+  const [navbarOpen, setNavbarOpen] = React.useState(false);
+
+  React.useEffect(() => {
+    console.log(navbarOpen)
+  }, [navbarOpen])
+
   return (
-    <div className="flex items-stretch justify-between gap-5 max-md:flex-wrap px-14 pb-4 pt-10">
-      <img
-        loading="lazy"
-        src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="aspect-[2.37] object-contain object-center w-[97px] overflow-hidden shrink-0 max-w-full"
-        alt="Image description"
-      />
-      <div className="flex items-start justify-between gap-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+    <div className="flex justify-between items-center gap-5 max-md:flex-wrap px-14 pb-4 pt-10">
+      <AnimatePresence>
+        {navbarOpen && (
+          <motion.div
+            className="w-screen h-screen bg-white z-10 fixed top-0 left-0"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <div className="flex flex-col items-center gap-4 h-full">
+              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+                Mukna
+              </h1>
+              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+                Directory
+              </h1>
+              <h1 className="text-black text-[70px] font-semibold leading-6 my-auto">
+                Artist Launchpad
+              </h1>
+              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+                Pulse
+              </h1>
+              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+                Blog
+              </h1>
+              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+                FAQ
+              </h1>
+            </div>
+
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <div className="flex gap-20 md:p-10 lg:p-0">
+        <motion.svg
+          width={80}
+          height={80}
+          viewBox="0 0 23 20"
+          animate={{ rotate: navbarOpen ? 90 : 0 }}
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="self-center w-full max-w-[77px] max-h-[80px] lg:hidden z-20"
+          onClick={() => setNavbarOpen(!navbarOpen)}
+        >
+          <line
+            x1={1}
+            y1={1}
+            x2={navbarOpen ? 0 : 22}
+            y2={1}
+            stroke="black"
+            strokeWidth={2}
+            strokeLinecap="round"
+          />
+          <line
+            x1={1}
+            y1={navbarOpen ? 1 : 10}
+            x2={22}
+            y2={navbarOpen ? 20 : 10}
+            stroke="black"
+            strokeWidth={2}
+            strokeLinecap="round"
+          />
+          <line
+            x1={1}
+            y1={19}
+            x2={22}
+            y2={navbarOpen ? 1 : 19}
+            stroke="black"
+            strokeWidth={2}
+            strokeLinecap="round"
+          />
+        </motion.svg>
+        <img
+          loading="lazy"
+          src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="aspect-[2.37] object-center md:w-[200px] lg:w-[97px] scale-0 sm:scale-150 overflow-hidden max-w-full"
+          alt="Image description"
+        />
+      </div>
+      <div className="items-start hidden lg:flex justify-between gap-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
         <h2 className="text-black text-lg leading-6 self-center my-auto">
           Mukna
         </h2>
@@ -35,6 +114,13 @@ function NavBar() {
           Registration Opening Soon
         </button>
       </div>
+      <button
+        disabled
+        className="text-white disabled:brightness-75 text-center w-96 h-24 lg:text-lg md:text-2xl  leading-6 whitespace-nowrap lg:hidden sm:block bg-orange-400 items-center self-center px-5 py-3.5 rounded-[50px]"
+      >
+        {/* Join Mukna 2023 */}
+        Registration Opening Soon
+      </button>
     </div>
   );
 }
