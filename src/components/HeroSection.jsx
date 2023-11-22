@@ -6,6 +6,7 @@ function HeroSection() {
       <img src="/newheroimgs/muknahead.png" alt="headlogo" className="absolute top-8 right-80" />
       <img src="/newheroimgs/performingarts.png" alt="bodylogo" className="absolute bottom-80 right-96" />
       <img src="/newheroimgs/91.png" alt="bodylogo" className="absolute bottom-60 -right-24" />
+      <img src="/newheroimgs/muknalogo.png" alt="logo" className="absolute bottom-32 right-10" />
       <div className="w-full h-full absolute flex justify-center items-center top-0 left-0   pr-80">
         <div className="flex flex-col h-full justify-evenly">
           <div className="flex flex-col gap-10">
@@ -103,12 +104,13 @@ function HeroSection() {
             <h1 className="text-black text-right text-lg font-extrabold leading-6 -mr-5">
               LEGAZPI CITY <br /> DECEMBER 8-10, 2023
             </h1>
-            <div
-              className="bg-black self-end flex min-h-[52px] w-1/2 flex-col -mr-5 mt-9 rounded-[50px] text-white text-center text-lg leading-6 whitespace-nowrap items-center px-5 py-3.5"
+            <button
+              className="bg-black self-end flex min-h-[52px] w-1/2 flex-col -mr-5 mt-9 rounded-[50px] text-white text-center text-lg leading-6 whitespace-nowrap items-center px-5 py-3.5 disabled:brightness-75"
               role="presentation"
+              disabled
             >
-              Join Mukna 2023
-            </div>
+              Registration Opening Soon
+            </button>
           </div>
 
         </div>

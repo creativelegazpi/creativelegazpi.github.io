@@ -27,12 +27,13 @@ function NavBar() {
         <h2 className="text-black text-lg leading-6 self-center my-auto">
           FAQ
         </h2>
-        <a
-          href="..."
-          className="text-white text-center w-60 text-lg leading-6 whitespace-nowrap bg-orange-500 self-stretch grow items-center px-5 py-3.5 rounded-[50px]"
+        <button
+          disabled
+          className="text-white disabled:brightness-75 text-center w-62 text-lg leading-6 whitespace-nowrap bg-orange-500 self-stretch grow items-center px-5 py-3.5 rounded-[50px]"
         >
-          Join Mukna 2023
-        </a>
+          {/* Join Mukna 2023 */}
+          Registration Opening Soon
+        </button>
       </div>
     </div>
   );
