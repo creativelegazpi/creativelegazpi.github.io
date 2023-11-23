@@ -4,39 +4,50 @@ import { motion, AnimatePresence } from "framer-motion";
 function NavBar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
-  React.useEffect(() => {
-    console.log(navbarOpen)
-  }, [navbarOpen])
-
   return (
     <div className="flex justify-between items-center gap-5 max-md:flex-wrap px-14 pb-4 pt-10">
       <AnimatePresence>
         {navbarOpen && (
           <motion.div
-            className="w-screen h-screen bg-white z-10 fixed top-0 left-0"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            className="w-screen h-screen flex justify-center items-center bg-white z-10 fixed top-0 left-0"
+            initial={{ x: "-100vw" }}
+            animate={{ x: 0 }}
+            exit={{ x: "-100vw" }}
+            transition={{ duration: 1, ease: "backOut" }}
           >
-            <div className="flex flex-col items-center gap-4 h-full">
-              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+            <div className="flex flex-col justify-center items-center gap-4 h-[70%]">
+              <motion.h1
+                initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{ duration: 0.7, ease: "backOut" }}
+                className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 Mukna
-              </h1>
-              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+              </motion.h1>
+              <motion.h1 initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{ duration: 0.7, ease: "backOut", delay: 0.1 }} className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 Directory
-              </h1>
-              <h1 className="text-black text-[70px] font-semibold leading-6 my-auto">
+              </motion.h1>
+              <motion.h1 initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{ duration: 0.7, ease: "backOut", delay: 0.2 }} className="text-black text-[70px] font-semibold leading-6 my-auto">
                 Artist Launchpad
-              </h1>
-              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+              </motion.h1>
+              <motion.h1 initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{ duration: 0.7, ease: "backOut", delay: 0.3 }} className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 Pulse
-              </h1>
-              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+              </motion.h1>
+              <motion.h1 initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{ duration: 0.7, ease: "backOut", delay: 0.4 }} className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 Blog
-              </h1>
-              <h1 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
+              </motion.h1>
+              <motion.h1 initial={{ y: "-100vh" }}
+                animate={{ y: 0 }}
+                transition={{ duration: 0.7, ease: "backOut", delay: 0.5 }} className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 FAQ
-              </h1>
+              </motion.h1>
             </div>
 
           </motion.div>
@@ -114,13 +125,13 @@ function NavBar() {
           Registration Opening Soon
         </button>
       </div>
-      <button
+      {/* <button
         disabled
         className="text-white disabled:brightness-75 text-center w-96 h-24 lg:text-lg md:text-2xl  leading-6 whitespace-nowrap lg:hidden sm:block bg-orange-400 items-center self-center px-5 py-3.5 rounded-[50px]"
       >
-        {/* Join Mukna 2023 */}
+        
         Registration Opening Soon
-      </button>
+      </button> */}
     </div>
   );
 }
