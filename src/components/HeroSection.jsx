@@ -2,14 +2,15 @@
 function HeroSection() {
   return (
     <div className="w-screen h-screen relative">
-      <img src="/newheroimgs/bghero2.png" alt="bg-image" className="object-cover w-full h-full" />
-      <img src="/newheroimgs/muknahead.png" alt="headlogo" className="absolute top-8 right-80" />
-      <img src="/newheroimgs/performingarts.png" alt="bodylogo" className="absolute bottom-80 right-96" />
-      <img src="/newheroimgs/91.png" alt="bodylogo" className="absolute bottom-60 -right-24" />
-      <img src="/newheroimgs/muknalogo.png" alt="logo" className="absolute bottom-32 right-10" />
-      <div className="w-full h-full absolute flex justify-center items-center top-0 left-0   pr-80">
-        <div className="flex flex-col h-full justify-evenly">
-          <div className="flex flex-col gap-10">
+      <img src="/newheroimgs/bghero2.png" alt="bg-image" className="object-cover w-full h-full hidden lg:block" />
+      <img src="/newheroimgs/mobilebg.png" alt="mobilebg" className="w-screen h-screen object-cover" />
+      <img src="/newheroimgs/muknahead.png" alt="headlogo" className="absolute top-8 right-80 hidden lg:block" />
+      <img src="/newheroimgs/performingarts.png" alt="bodylogo" className="absolute bottom-80 right-96 hidden lg:block" />
+      <img src="/newheroimgs/91.png" alt="bodylogo" className="absolute bottom-60 -right-24 hidden lg:block" />
+      <img src="/newheroimgs/muknalogo.png" alt="logo" className="absolute bottom-32 right-10 hidden lg:block" />
+      <div className="w-full h-full absolute flex justify-center items-center top-0 left-0 pr-80">
+        <div className="flex flex-col h-full justify-evenly lg:translate-x-0 md:translate-x-36">
+          <div className="flex flex-col lg:gap-10 md:gap-20">
             <svg
               width={715}
               height={177}
@@ -100,12 +101,12 @@ function HeroSection() {
               />
             </svg>
           </div>
-          <div className="flex flex-col px-5 translate-y-10">
-            <h1 className="text-black text-right text-lg font-extrabold leading-6 -mr-5">
+          <div className="flex flex-col px-5 lg:translate-y-10 md:translate-y-14">
+            <h1 className="text-black text-right lg:text-lg md:text-3xl font-extrabold leading-6 -mr-5">
               LEGAZPI CITY <br /> DECEMBER 8-10, 2023
             </h1>
             <button
-              className="bg-black self-end flex min-h-[52px] w-1/2 flex-col -mr-5 mt-9 rounded-[50px] text-white text-center text-lg leading-6 whitespace-nowrap items-center px-5 py-3.5 disabled:brightness-75"
+              className="bg-black self-end flex lg:min-h-[52px] md:min-h-[100px] lg:w-1/2 md:w-9/12 flex-col -mr-5 mt-9 rounded-[50px] text-white text-center lg:text-lg md:text-3xl leading-6 whitespace-nowrap items-center px-5 lg:py-3.5 md:py-8 disabled:brightness-75"
               role="presentation"
               disabled
             >
