@@ -98,25 +98,25 @@ function NavBar() {
           alt="Image description"
         />
       </div>
-      <div className="items-start hidden lg:flex justify-between gap-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-        <a href="#mukna" className="text-black text-lg leading-6 self-center my-auto">
+      <div className="items-start [&:has(a:hover)>a:not(:hover)]:scale-[0.8] [&:has(a:hover)>a:hover]:scale-[1.2] transition-all duration-300 hidden lg:flex justify-between gap-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
+        <a href="#mukna" className="transition-all duration-300 text-black text-lg leading-6 self-center my-auto">
           <h2>Mukna</h2>
         </a>
-        <a href="#directory" className="text-black text-lg leading-6 self-center my-auto">
+        <a href="#directory" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
           <h2>Directory</h2>
         </a>
-        <a href="#launchpad" className="text-black text-lg leading-6 my-auto">
+        <a href="#launchpad" className="text-black transition-all duration-300 text-lg leading-6 my-auto">
           <h2 >
             Launchpad
           </h2>
         </a>
-        <a href="#pulse" className="text-black text-lg leading-6 self-center my-auto">
+        <a href="#pulse" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
           <h2>Pulse</h2>
         </a>
-        <a href="#blog" className="text-black text-lg leading-6 self-center my-auto">
+        <a href="#blog" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
           <h2>Blog</h2>
         </a>
-        <a href="#FAQ" className="text-black text-lg leading-6 self-center my-auto">
+        <a href="#FAQ" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
           <h2>FAQ</h2>
         </a>
         <button
