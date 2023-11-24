@@ -3,11 +3,11 @@ function HeroSection() {
   return (
     <div className="w-screen h-screen relative">
       <img src="/newheroimgs/bghero2.png" alt="bg-image" className="object-cover w-full h-full hidden lg:block" />
-      <img src="/newheroimgs/mobilebg.png" alt="mobilebg" className="w-screen h-screen object-cover" />
+      <img src="/newheroimgs/mobilebg.png" alt="mobilebg" className="w-screen h-screen object-cover lg:hidden md:block" />
       <img src="/newheroimgs/muknahead.png" alt="headlogo" className="absolute top-8 right-80 hidden lg:block" />
       <img src="/newheroimgs/performingarts.png" alt="bodylogo" className="absolute bottom-80 right-96 hidden lg:block" />
       <img src="/newheroimgs/91.png" alt="bodylogo" className="absolute bottom-60 -right-24 hidden lg:block" />
-      <img src="/newheroimgs/muknalogo.png" alt="logo" className="absolute bottom-32 right-10 hidden lg:block" />
+      <img src="/newheroimgs/muknalogo.png" alt="logo" className="absolute bottom-32 right-10 hidden lg:block animate-bounce" />
       <div className="w-full h-full absolute flex justify-center items-center top-0 left-0 pr-80">
         <div className="flex flex-col h-full justify-evenly lg:translate-x-0 md:translate-x-36">
           <div className="flex flex-col lg:gap-10 md:gap-20">
@@ -102,16 +102,33 @@ function HeroSection() {
             </svg>
           </div>
           <div className="flex flex-col px-5 lg:translate-y-10 md:translate-y-14">
-            <h1 className="text-black text-right lg:text-lg md:text-3xl font-extrabold leading-6 -mr-5">
+            <h1 className="text-black text-right lg:text-lg md:text-3xl font-extrabold leading-6 -mr-5 relative">
               LEGAZPI CITY <br /> DECEMBER 8-10, 2023
             </h1>
             <button
-              className="bg-black self-end flex lg:min-h-[52px] md:min-h-[100px] lg:w-1/2 md:w-9/12 flex-col -mr-5 mt-9 rounded-[50px] text-white text-center lg:text-lg md:text-3xl leading-6 whitespace-nowrap items-center px-5 lg:py-3.5 md:py-8 disabled:brightness-75"
+              className="bg-black self-end flex lg:min-h-[52px] md:min-h-[100px] lg:w-1/2 md:w-9/12 flex-col -mr-5 mt-9 rounded-[50px] text-white text-center lg:text-lg md:text-3xl leading-6 whitespace-nowrap items-center px-5 lg:py-3.5 md:py-8 disabled:brightness-75 peer"
               role="presentation"
               disabled
             >
               Registration Opening Soon
             </button>
+            <div className="bg-slate-500 w-80 h-52 rounded-3xl opacity-0 absolute top-0 left-0 peer-hover:opacity-100 hover:opacity-100 sm:hidden lg:block transition-opacity duration-200 ease-in">
+
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 text-slate-600 absolute -right-10 scale-150 bottom-20">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+
+              <div>
+                <h1 className="text-white text-2xl font-bold leading-6 mt-6 ml-6">
+                  Join our mailing list
+                </h1>
+                <p className="text-white text-sm font-normal leading-6 mt-2 ml-6">
+                  Stay up to date with the latest news and updates from the
+                  Mukna 2023 team.<br />
+                  <a href="https://www.facebook.com/creativelegazpi" className="underline text-blue-200 text-lg" target="_blank">Be sure to check our facebook page for more information.</a>
+                </p>
+              </div>
+            </div>
           </div>
 
         </div>
