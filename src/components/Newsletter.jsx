@@ -11,7 +11,7 @@ function Newsletter() {
                     Stay in the loop with the latest news, special offers, and insider insights.
                 </div>
                 <input
-                    className="aspect-[15.13] text-black focus-visible:border-orange-400 rounded-md object-contain object-center w-[590px] bg-white overflow-hidden self-center max-w-full mt-8"
+                    className="aspect-[15.13] text-black focus-visible:border-orange-400 rounded-md p-4 object-contain object-center w-[590px] bg-white overflow-hidden self-center max-w-full mt-8"
                 />
                 <div className="text-white text-center text-lg leading-6 whitespace-nowrap bg-orange-500 self-center w-[248px] max-w-full items-center mt-8 px-5 py-3.5 rounded-[50px]">
                     SUBSCRIBE NOW

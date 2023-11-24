@@ -2,7 +2,7 @@ import React from 'react'
 
 function FaqSection() {
     return (
-        <div className='w-screen h-screen flex justify-center items-center bg-white'>
+        <div id='FAQ' className='w-screen h-screen flex justify-center items-center bg-white'>
             <div className='flex w-[80%] h-[80%]'>
                 <div className='w-[50%] h-full'>
                     <h1 className='text-black text-6xl leading-relaxed'>

@@ -6,7 +6,7 @@ function ArtistSection() {
     const isInView = useInView(ref);
 
     return (
-        <div className='w-screen h-screen relative flex items-center' ref={ref}>
+        <div id='directory' className='w-screen h-screen relative flex items-center' ref={ref}>
             <motion.div animate={{ x: isInView ? 0 : -1000 }} transition={{ duration: 2, type: "spring" }} className="flex flex-col items-stretch w-1/4 px-5 ml-28 absolute">
                 <h1 className="text-black text-6xl leading-[77px] w-full -mr-5 max-md:text-4xl max-md:leading-[53px]">
                     <span>Creative</span> <br />

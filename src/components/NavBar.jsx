@@ -99,24 +99,26 @@ function NavBar() {
         />
       </div>
       <div className="items-start hidden lg:flex justify-between gap-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-        <h2 className="text-black text-lg leading-6 self-center my-auto">
-          Mukna
-        </h2>
-        <h2 className="text-black text-lg leading-6 self-center my-auto">
-          Directory
-        </h2>
-        <h2 className="text-black text-lg leading-6 my-auto">
-          Launchpad
-        </h2>
-        <h2 className="text-black text-lg leading-6 self-center my-auto">
-          Pulse
-        </h2>
-        <h2 className="text-black text-lg leading-6 self-center my-auto">
-          Blog
-        </h2>
-        <h2 className="text-black text-lg leading-6 self-center my-auto">
-          FAQ
-        </h2>
+        <a href="#mukna" className="text-black text-lg leading-6 self-center my-auto">
+          <h2>Mukna</h2>
+        </a>
+        <a href="#directory" className="text-black text-lg leading-6 self-center my-auto">
+          <h2>Directory</h2>
+        </a>
+        <a href="#launchpad" className="text-black text-lg leading-6 my-auto">
+          <h2 >
+            Launchpad
+          </h2>
+        </a>
+        <a href="#pulse" className="text-black text-lg leading-6 self-center my-auto">
+          <h2>Pulse</h2>
+        </a>
+        <a href="#blog" className="text-black text-lg leading-6 self-center my-auto">
+          <h2>Blog</h2>
+        </a>
+        <a href="#FAQ" className="text-black text-lg leading-6 self-center my-auto">
+          <h2>FAQ</h2>
+        </a>
         <button
           disabled
           className="text-white disabled:brightness-75 text-center w-62 text-lg leading-6 whitespace-nowrap bg-orange-500 self-stretch grow items-center px-5 py-3.5 rounded-[50px]"
