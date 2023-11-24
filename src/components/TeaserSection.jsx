@@ -7,7 +7,7 @@ function TeaserSection() {
             <img
                 src='/newheroimgs/secondsection.png'
                 alt='video'
-                className='w-full h-full absolute'
+                className='w-full h-full absolute object-cover'
             />
         </div>
     )

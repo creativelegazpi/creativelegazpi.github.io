@@ -5,7 +5,7 @@ function NavBar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
-    <div className="flex justify-between items-center gap-5 max-md:flex-wrap px-14 pb-4 pt-10">
+    <div className="flex bg-white justify-between items-center gap-5 max-md:flex-wrap px-14 pb-4 pt-10">
       <AnimatePresence>
         {navbarOpen && (
           <motion.div
@@ -31,7 +31,7 @@ function NavBar() {
               <motion.h1 initial={{ y: "-100vh" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.7, ease: "backOut", delay: 0.2 }} className="text-black text-[70px] font-semibold leading-6 my-auto">
-                Artist Launchpad
+                Launchpad
               </motion.h1>
               <motion.h1 initial={{ y: "-100vh" }}
                 animate={{ y: 0 }}
@@ -106,7 +106,7 @@ function NavBar() {
           Directory
         </h2>
         <h2 className="text-black text-lg leading-6 my-auto">
-          Artist Launchpad
+          Launchpad
         </h2>
         <h2 className="text-black text-lg leading-6 self-center my-auto">
           Pulse
