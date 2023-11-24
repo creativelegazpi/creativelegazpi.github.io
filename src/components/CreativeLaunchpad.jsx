@@ -7,7 +7,7 @@ function CreativeLaunchpad() {
 
     return (
         <div ref={ref} className='w-screen overflow-hidden h-screen lg:block md:flex md:justify-center md:items-center relative'>
-            <img src="/public/newheroimgs/launchpad.png" alt="launchpad" className='w-full h-full object-cover' />
+            <img src="/newheroimgs/launchpad.png" alt="launchpad" className='w-full h-full object-cover' />
             <div className='absolute lg:top-52 lg:left-20 lg:w-[30rem] md:w-full md:h-[20rem]'>
                 <div className="flex flex-col gap-5 px-5 h-full">
                     <motion.div animate={{ y: isInView ? 0 : 1000 }} transition={{ duration: 2, type: "spring" }} className="text-white lg:text-6xl md:text-[150px] lg:leading-[77px] md:leading-[150px] self-stretch w-full -mr-5 max-md:text-4xl max-md:leading-[53px]">
