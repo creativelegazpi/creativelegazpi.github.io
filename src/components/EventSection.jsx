@@ -49,7 +49,7 @@ function EventSection() {
                                     8 Dec
                                 </div>
                                 <div className="text-black text-right lg:text-2xl md:text-3xl font-bold leading-7 whitespace-nowrap mt-52 max-md:mt-10">
-                                    7-9 Dec
+                                    8-10 Dec
                                 </div>
                             </div>
                             <div className="flex grow basis-[0%] h-full justify-evenly flex-col items-stretch my-auto max-md:max-w-full">
@@ -77,7 +77,10 @@ function EventSection() {
                                         <br />
                                     </span>
                                     <span className="font-bold">Mukna Creative Awards</span>
-                                    <span className="">Please be in your formal attire</span>
+                                    <span className="">(Formal attire)</span>
+                                    <br />
+                                    <span className="">@ Oriental Hotel</span>
+
                                 </div>
                                 <div className="text-black lg:text-2xl md:text-3xl leading-7 mt-11 max-md:max-w-full max-md:mt-10">
                                     <span className="">
@@ -85,6 +88,7 @@ function EventSection() {
                                         <br />
                                     </span>
                                     <span className="font-bold">Mukna Mukna Creative Expo</span>
+
                                     <span className="">@ Ayala Malls Legazpi</span>
                                 </div>
                             </div>
