@@ -5,14 +5,24 @@ import TeaserSection from "../components/TeaserSection";
 import NavBar from "../components/NavBar";
 import EventSection from "../components/EventSection";
 import ArtistSection from "../components/ArtistSection";
+import CreativeLaunchpad from "../components/CreativeLaunchpad";
+import PulseSection from "../components/PulseSection";
+import FaqSection from "../components/FaqSection";
+import Newsletter from "../components/Newsletter";
+import FooterSection from "../components/FooterSection";
 ---
 
 <Layout title="Creative Legazpi">
   <NavBar client:only />
   <HeroSection client:only />
-  <!-- <TeaserSection /> -->
-  <!-- <EventSection /> -->
-  <!-- <ArtistSection /> -->
+  <TeaserSection />
+  <EventSection client:only />
+  <ArtistSection client:only />
+  <CreativeLaunchpad client:only />
+  <PulseSection client:only />
+  <FaqSection client:only />
+  <Newsletter />
+  <FooterSection />
 </Layout>
 
 <style></style>
