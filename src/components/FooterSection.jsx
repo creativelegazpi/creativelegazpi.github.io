@@ -40,11 +40,20 @@ function FooterSection() {
                 <div className="text-black lg:hidden md:block text-5xl leading-[60px] grow shrink basis-auto mt-1.5">
                     Contact us <br /> Privacy Policy
                 </div>
-                <img
-                    loading="lazy"
-                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/ccf5f817-6f06-4aff-8e07-eb4f36291740?apiKey=61d96ebfcc1645058754f2d90f7b2466&"
-                    className="aspect-[2.95] object-contain object-center lg:w-[130px] md:w-[200px] lg:h-fit md:h-[100px] scale-125 overflow-hidden self-center shrink-0 my-auto"
-                />
+                <div className="flex">
+                    <a className="hover:scale-110 transition-all duration-150" href="https://facebook.com/creativelegazpi" target="_blank">
+                        <img
+                            src="/newheroimgs/fblogo.svg"
+                            className="aspect-[2.95] object-contain object-center lg:w-[130px] md:w-[200px] lg:h-fit md:h-[100px] scale-125 overflow-hidden self-center shrink-0 my-auto"
+                        />
+                    </a>
+                    <a className="hover:scale-110 transition-all duration-150" href="https://instagram.com/creativelegazpi" target="_blank">
+                        <img
+                            src="/newheroimgs/instalogo.svg"
+                            className="aspect-[2.95] object-contain object-center lg:w-[130px] md:w-[200px] lg:h-fit md:h-[100px] scale-125 overflow-hidden self-center shrink-0 my-auto"
+                        />
+                    </a>
+                </div>
             </div>
         </div>
     );

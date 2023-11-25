@@ -94,7 +94,7 @@ function NavBar() {
         </motion.svg>
         <img
           loading="lazy"
-          src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="aspect-[2.37] object-center md:w-[200px] lg:w-[97px] scale-0 sm:scale-150 sm:ml-32 overflow-hidden max-w-full"
+          src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="aspect-[2.37] object-center md:w-[200px] lg:w-[97px] scale-0 sm:scale-150 lg:ml-0 sm:ml-32 overflow-hidden max-w-full"
           alt="Image description"
         />
       </div>
