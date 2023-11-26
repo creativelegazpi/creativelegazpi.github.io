@@ -14,11 +14,13 @@ function PulseSection() {
                     <img className=' lg:w-4/6 md:w-3/4' src="/newheroimgs/pulse logo.webp" alt="pulselogo" />
                     <h1 className='uppercase text-[#665FA9] text-center lg:text-[44px] md:text-[100px] break-words lg:w-full md:w-[26rem] font-semibold'>virtual summit</h1>
                     <h1 className='uppercase text-[#665FA9] text-center lg:text-[32px] md:text-[50px] font-semibold'>december 07 - 08, 2023</h1>
-                    <motion.a href='https://wearehonu.com/pulse' target='_blank' whileHover={{ scale: 1.10 }} className='uppercase text-white text-center lg:text-[18px] md:text-[40px] lg:font-normal md:font-semibold lg:w-[325px] lg:h-[40px] md:w-3/4 md:h-[80px] flex-shrink-0 pt-2 rounded-full bg-[#E96A54]'>secure your pass today</motion.a>
-                    <h1 className='text-[#262626] flex gap-2 text-center lg:text-[16px] md:text-[34px] font-extrabold mt-2'>Organized by HONU <span>
-                        <img src="/newheroimgs/ico-honu 2.png" alt="ico-honu" className='md:w-[50px] lg:w-[20px]' />
-                    </span>
-                    </h1>
+                    <motion.a href='https://wearehonu.com/pulse' target='_blank' whileHover={{ scale: 1.10 }} className='uppercase text-white text-center pt-1 lg:text-[18px] md:text-[40px] lg:font-normal my-auto md:font-semibold lg:w-[325px] lg:h-[40px] md:w-3/4 md:h-[80px] flex-shrink-0 rounded-full bg-[#E96A54]'>secure your pass today</motion.a>
+                    <a href="https://web.facebook.com/pulsevirtualsummit" target='_blank'>
+                        <h1 className='text-[#262626] flex gap-2 text-center lg:text-[16px] md:text-[34px] font-extrabold mt-2'>Organized by HONU <span>
+                            <img src="/newheroimgs/ico-honu 2.png" alt="ico-honu" className='md:w-[50px] lg:w-[20px]' />
+                        </span>
+                        </h1>
+                    </a>
                 </div>
             </motion.div>
         </motion.div>
