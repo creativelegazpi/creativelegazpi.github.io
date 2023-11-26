@@ -14,18 +14,29 @@ function FaqSection() {
                         <div className="collapse collapse-arrow join-item border-b-2">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title lg:text-xl md:text-5xl text-black font-medium">
-                                What is Mukna?                            </div>
+                                What is Creative Legazpi?                            </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>This is a project under the MALIKHAING PINOY Lunsod Lunsad grant program of DTI Competitiveness and Innovation Group under LGU Legazpi City in partnership with DTI Region V, DTI Albay and Legazpi City Creative Industry Council organized by Cheerz Studio.
+                                </p>
                             </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-b-2">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title lg:text-xl md:text-5xl text-black font-medium">
-                                How do I register for the event?
+                                What is the Mukná Creative Industry Convention?
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>This is a 3-day event under the Creative Legazpi project which consists of virtual conference, onsite conference, awards night, and creative expo in line with the development of our local creative industry under the Philippine Creative Industry Development Act (RA 11904)</p>
+                            </div>
+                        </div>
+                        <div className="collapse collapse-arrow join-item border-b-2">
+                            <input type="radio" name="my-accordion-4" />
+                            <div className="collapse-title lg:text-xl md:text-5xl text-black font-medium">
+                                Wow! The event is FREE, how do I participate in this event?
+                            </div>
+                            <div className="collapse-content">
+                                <p>Yes the event is free, but slots are only limited. Check out the event schedule. Register here for the Mukná Conference, (link to the registration link via partiful)
+                                </p>
                             </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-b-2">
@@ -34,61 +45,56 @@ function FaqSection() {
                                 How do I register for the Creative Directory?
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>Just fill out our registration form to be part of our creative players profile, register here. *hyperlink to typeform registration”</p>
                             </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-b-2">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title lg:text-xl md:text-5xl text-black font-medium">
-                                What are the dates and activities for Mukna?
+                                What is the agenda on each event schedule?
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>Please check out the agenda of each event here. *link to the Mukna Schedule Section*</p>
                             </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-b-2">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title lg:text-xl md:text-5xl text-black font-medium">
-                                I'm not from Legazpi, can I still join?
+                                I'm not from Legazpi City, can I still join?
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>Yes! This event is not only inclusive to Legazpi City, we love to see other creatives at this event.
+                                </p>
                             </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-b-2">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title lg:text-xl md:text-5xl text-black font-medium">
-                                What is Artist Launchpad?
+                                What is Creative Launchpad?
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>The launchpad aims to showcase and give highlight to the countryside creative professionals' work, projects and portfolios. Showing the whole world our creative capabilities when it comes to all creative domains under PCIDA RA 11904.
+                                </p>
                             </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-b-2">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title lg:text-xl md:text-5xl text-black font-medium">
-                                How do I register in the Artist Launchpad?
+                                How do I register for the Creative Launchpad?
+
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
+                                <p>We are continuously seeking for the best creative works from all domains to showcase globally, you can apply and share your portfolio with us by sending us an email at hello@creativelegazpi.ph </p>
                             </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-b-2">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title lg:text-xl md:text-5xl text-black font-medium">
-                                What are the government agencies involved?
+                                How can I reach out to you?
                             </div>
                             <div className="collapse-content">
-                                <p>hello</p>
-                            </div>
-                        </div>
-                        <div className="collapse collapse-arrow join-item border-b-2">
-                            <input type="radio" name="my-accordion-4" />
-                            <div className="collapse-title lg:text-xl md:text-5xl text-black font-medium">
-                                How should I contact you?
-                            </div>
-                            <div className="collapse-content">
-                                <p className='text-3xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, illum voluptatem corporis officia officiis hic libero distinctio ipsum tenetur deleniti? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima tempore ducimus ut accusamus, impedit nisi corrupti mollitia sint architecto quia optio omnis dolorem dolores nobis aperiam iure officiis sequi atque.</p>
+                                <p className='text-3xl'>Please reach out to us via email at hello@creativelegazp.ph
+                                </p>
                             </div>
                         </div>
                     </div>

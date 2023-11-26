@@ -3,7 +3,7 @@ import { motion, useInView } from "framer-motion";
 
 function EventSection() {
     const ref = React.useRef(null);
-    const isInView = useInView(ref);
+    const isInView = useInView(ref, { once: true });
 
     return (
         <div>
@@ -15,7 +15,7 @@ function EventSection() {
                         transition={{ duration: 2, type: "spring" }} className="bg-orange-500 lg:h-screen h-full lg:border-r-2 lg:border-b-0 md:border-b-2 border-black flex flex-col w-full mx-auto px-20 py-12 max-md:max-w-full max-md:px-5">
                         <img
                             loading="lazy"
-                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&" className="aspect-[3.6] object-contain object-center w-full overflow-hidden self-stretch mt-16 max-md:mt-10"
+                            srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&" className="aspect-[3.6] object-contain object-center  w-[min(100vw,1000px)] overflow-hidden self-stretch mt-16 max-md:mt-10"
                             alt="Conference Image 1"
                         />
                         <img
@@ -26,7 +26,7 @@ function EventSection() {
                         <div className="text-black text-right lg:text-lg  md:text-3xl font-extrabold leading-6 mt-10">
                             LEGAZPI CITY
                             <br />
-                            DECEMBER 7-9, 2023
+                            DECEMBER 8-10, 2023
                         </div>
                         <a
                             href="#"

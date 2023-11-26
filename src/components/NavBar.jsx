@@ -102,6 +102,9 @@ function NavBar() {
         <a href="#mukna" className="transition-all duration-300 text-black text-lg leading-6 self-center my-auto">
           <h2>Mukna</h2>
         </a>
+        <a href="#teaser" className="transition-all duration-300 text-black text-lg leading-6 self-center my-auto">
+          <h2>Teaser</h2>
+        </a>
         <a href="#directory" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
           <h2>Directory</h2>
         </a>
