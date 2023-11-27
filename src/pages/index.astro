@@ -10,9 +10,11 @@ import PulseSection from "../components/PulseSection";
 import FaqSection from "../components/FaqSection";
 import Newsletter from "../components/Newsletter";
 import FooterSection from "../components/FooterSection";
+import CookieConsent from "../components/CookieConsent.astro";
 ---
 
 <Layout title="Creative Legazpi">
+  <!-- <CookieConsent /> -->
   <NavBar client:only />
   <HeroSection client:only />
   <TeaserSection />
@@ -21,7 +23,7 @@ import FooterSection from "../components/FooterSection";
   <CreativeLaunchpad client:only />
   <PulseSection client:only />
   <FaqSection client:only />
-  <Newsletter />
+  <Newsletter client:only />
   <FooterSection />
 </Layout>
 

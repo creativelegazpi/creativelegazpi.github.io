@@ -13,8 +13,7 @@ function ArtistSection() {
                     <span className="font-bold">Directory</span>
                 </h1>
                 <p className="text-black lg:text-lg md:text-5xl leading-6 w-full -mr-5 mt-9">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua.
+                    Explore, connect and network with the creative minds of Legazpi City
                 </p>
                 <div className="flex lg:flex-row md:flex-col w-full items-stretch justify-between lg:gap-2.5 md:gap-5 -mr-5 mt-10 pr-9 max-md:pr-5">
                     <button
@@ -25,15 +24,15 @@ function ArtistSection() {
                         Explore
                     </button>
                     <a
-                        href="#register"
-                        disabled
+                        href="https://0hdw7ecun8a.typeform.com/to/JDyOCbVv"
+                        target="_blank"
                         className="text-white disabled:brightness-75 text-center lg:text-lg md:text-4xl leading-6 whitespace-nowrap bg-black grow items-center px-5 lg:py-3 md:py-8 rounded-[50px]"
                     >
                         Register
                     </a>
                 </div>
             </motion.div>
-            <img src="/newheroimgs/directory mockup.webp" alt="artistsection" className='w-full h-full object-contain lg:scale-100 md:scale-[1.75] bg-white lg:my-0 md:my-10 -z-10 lg:translate-x-0 md:-translate-x-60' />
+            <img src="/newheroimgs/directory mockup (1).webp" alt="artistsection" className='w-full h-full object-contain lg:scale-100 md:scale-[1.75] bg-white lg:my-0 md:my-10 -z-10 lg:translate-x-0 md:-translate-x-60' />
         </div>
     )
 }

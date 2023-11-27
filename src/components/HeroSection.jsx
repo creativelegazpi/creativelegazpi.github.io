@@ -128,16 +128,18 @@ function HeroSection() {
             <motion.h1 style={{ y: y7 }} className="text-black text-right lg:text-lg md:text-3xl font-extrabold leading-6 -mr-5 relative">
               LEGAZPI CITY <br /> DECEMBER 8-10, 2023
             </motion.h1>
-            <motion.button
+            <motion.a
+              href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc"
+              target="_blank"
               style={{ y: y6 }}
               whileHover={{ scale: 1.05 }}
-              className="bg-black self-end flex lg:min-h-[52px] md:min-h-[120px] lg:w-1/2 md:w-full flex-col -mr-5 mt-9 rounded-full text-white text-center lg:text-lg md:text-[42px] font-semibold leading-6 whitespace-nowrap items-center px-5 lg:py-3.5 md:py-10 disabled:brightness-75 peer"
+              className="bg-[#01E9D9] self-end flex lg:min-h-[52px] md:min-h-[120px] lg:w-3/4 md:w-full flex-col -mr-5 mt-9 rounded-full text-black border-2 border-black text-center lg:text-lg md:text-[42px] font-semibold leading-6 whitespace-nowrap items-center px-5 lg:py-3.5 md:py-10 disabled:brightness-75 shadow-[0_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[0_6px_0px_0px_rgba(0,0,0,1)] transition-all peer"
               role="presentation"
-              disabled
+
             >
-              Registration Opening Soon
-            </motion.button>
-            <div className="bg-slate-500 w-80 h-52 rounded-3xl opacity-0 absolute top-0 left-0 peer-hover:opacity-100 hover:opacity-100 sm:hidden lg:block transition-opacity duration-200 ease-in">
+              Join Mukna 2023
+            </motion.a>
+            {/* <div className="bg-slate-500 w-80 h-52 rounded-3xl opacity-0 absolute top-0 left-0 peer-hover:opacity-100 hover:opacity-100 sm:hidden lg:block transition-opacity duration-200 ease-in">
 
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 text-slate-600 absolute -right-10 scale-150 bottom-20">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
@@ -153,7 +155,7 @@ function HeroSection() {
                   <a href="https://www.facebook.com/creativelegazpi" className="underline text-blue-200 text-lg" target="_blank">Be sure to check our facebook page for more information.</a>
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
 
         </div>
