@@ -131,11 +131,11 @@ function HeroSection() {
             <motion.button
               style={{ y: y6 }}
               whileHover={{ scale: 1.05 }}
-              className="bg-black self-end flex lg:min-h-[52px] md:min-h-[120px] lg:w-1/2 md:w-full flex-col -mr-5 mt-9 rounded-full text-white text-center lg:text-lg md:text-[42px] font-semibold leading-6 whitespace-nowrap items-center px-5 lg:py-3.5 md:py-10 disabled:brightness-75 peer"
+              className="bg-[#01E9D9] self-end flex lg:min-h-[52px] md:min-h-[120px] lg:w-3/4 md:w-full flex-col -mr-5 mt-9 rounded-full text-black border-2 border-black text-center lg:text-lg md:text-[42px] font-semibold leading-6 whitespace-nowrap items-center px-5 lg:py-3.5 md:py-10 disabled:brightness-75 shadow-[0_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[0_6px_0px_0px_rgba(0,0,0,1)] transition-all peer"
               role="presentation"
               disabled
             >
-              Registration Opening Soon
+              Join Mukna 2023
             </motion.button>
             <div className="bg-slate-500 w-80 h-52 rounded-3xl opacity-0 absolute top-0 left-0 peer-hover:opacity-100 hover:opacity-100 sm:hidden lg:block transition-opacity duration-200 ease-in">
 

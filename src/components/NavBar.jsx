@@ -94,14 +94,15 @@ function NavBar() {
         </motion.svg>
         <img
           loading="lazy"
-          src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="aspect-[2.37] object-center md:w-[200px] lg:w-[97px] scale-0 sm:scale-150 sm:ml-32 overflow-hidden max-w-full"
+          src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="aspect-[2.37] object-center md:w-[200px] lg:w-[97px] scale-0 sm:scale-150 lg:ml-0 sm:ml-32 overflow-hidden max-w-full"
           alt="Image description"
         />
       </div>
       <div className="items-start [&:has(a:hover)>a:not(:hover)]:scale-[0.8] [&:has(a:hover)>a:hover]:scale-[1.2] transition-all duration-300 hidden lg:flex justify-between gap-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-        <a href="#mukna" className="transition-all duration-300 text-black text-lg leading-6 self-center my-auto">
+        <a href="#teaser" className="transition-all duration-300 text-black text-lg leading-6 self-center my-auto">
           <h2>Mukna</h2>
         </a>
+
         <a href="#directory" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
           <h2>Directory</h2>
         </a>

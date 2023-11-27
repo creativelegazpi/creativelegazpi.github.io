@@ -16,13 +16,12 @@ function CreativeLaunchpad() {
             <div className='absolute lg:top-52 lg:left-20 lg:w-[30rem] md:w-[50rem] md:h-[20rem]'>
                 <div className="flex flex-col gap-5 px-5 h-full">
                     <motion.div animate={{ opacity: isView ? 1 : 0 }} transition={{ duration: 1, type: "spring" }} className="text-white lg:text-6xl md:text-[150px] lg:leading-[77px] md:leading-[150px] self-stretch w-full -mr-5 max-md:text-4xl max-md:leading-[53px]">
-                        <span className="">Artist</span>
+                        <span className="">Creative</span>
                         <br />
                         <span className="font-bold">Launchpad</span>
                     </motion.div>
                     <motion.div animate={{ opacity: isView ? 1 : 0 }} transition={{ duration: 1, type: "spring", delay: 0.3 }} className="text-white lg:text-lg md:text-[45px] lg:leading-6 md:leading-[70px] self-stretch w-full -mr-5 mt-9">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </motion.div>
+                        Highlights local creative professionals by launching a campaign of their latest project, exhibits and services                    </motion.div>
                     <motion.a whileHover={{ scale: 1.25 }} animate={{ opacity: isView ? 1 : 0 }} transition={{ duration: 0.5, type: "spring" }} href='#creativelaunchpad' disabled className="text-white disabled:brightness-50 text-center lg:text-lg md:text-4xl leading-6 whitespace-nowrap bg-orange-500 lg:w-[271px] md:w-full items-center mt-10 lg:px-5 lg:py-3 md:py-10 rounded-[50px]">
                         Available Soon..
                     </motion.a>
