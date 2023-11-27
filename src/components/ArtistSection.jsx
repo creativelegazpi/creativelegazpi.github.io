@@ -24,8 +24,8 @@ function ArtistSection() {
                         Explore
                     </button>
                     <a
-                        href="#register"
-                        disabled
+                        href="https://0hdw7ecun8a.typeform.com/to/JDyOCbVv"
+                        target="_blank"
                         className="text-white disabled:brightness-75 text-center lg:text-lg md:text-4xl leading-6 whitespace-nowrap bg-black grow items-center px-5 lg:py-3 md:py-8 rounded-[50px]"
                     >
                         Register

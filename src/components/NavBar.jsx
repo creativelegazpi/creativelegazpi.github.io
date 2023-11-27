@@ -16,38 +16,55 @@ function NavBar() {
             transition={{ duration: 1, ease: "backOut" }}
           >
             <div className="flex flex-col justify-center items-center gap-4 h-[70%]">
-              <motion.h1
+              <motion.a
+                href="#teaser"
+                onClick={() => setNavbarOpen(!navbarOpen)}
                 initial={{ y: "-100vh" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.7, ease: "backOut" }}
                 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 Mukna
-              </motion.h1>
-              <motion.h1 initial={{ y: "-100vh" }}
+              </motion.a>
+              <motion.a
+                href="#directory"
+                onClick={() => setNavbarOpen(!navbarOpen)}
+                initial={{ y: "-100vh" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.7, ease: "backOut", delay: 0.1 }} className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 Directory
-              </motion.h1>
-              <motion.h1 initial={{ y: "-100vh" }}
+              </motion.a>
+              <motion.a
+                href="#launchpad"
+                onClick={() => setNavbarOpen(!navbarOpen)}
+                initial={{ y: "-100vh" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.7, ease: "backOut", delay: 0.2 }} className="text-black text-[70px] font-semibold leading-6 my-auto">
                 Launchpad
-              </motion.h1>
-              <motion.h1 initial={{ y: "-100vh" }}
+              </motion.a>
+              <motion.a
+                href="#pulse"
+                onClick={() => setNavbarOpen(!navbarOpen)}
+                initial={{ y: "-100vh" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.7, ease: "backOut", delay: 0.3 }} className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 Pulse
-              </motion.h1>
-              <motion.h1 initial={{ y: "-100vh" }}
+              </motion.a>
+              <motion.a
+                href="#blog"
+                onClick={() => setNavbarOpen(!navbarOpen)}
+                initial={{ y: "-100vh" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.7, ease: "backOut", delay: 0.4 }} className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 Blog
-              </motion.h1>
-              <motion.h1 initial={{ y: "-100vh" }}
+              </motion.a>
+              <motion.a
+                href="#FAQ"
+                onClick={() => setNavbarOpen(!navbarOpen)}
+                initial={{ y: "-100vh" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.7, ease: "backOut", delay: 0.5 }} className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
                 FAQ
-              </motion.h1>
+              </motion.a>
             </div>
 
           </motion.div>
@@ -120,13 +137,15 @@ function NavBar() {
         <a href="#FAQ" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
           <h2>FAQ</h2>
         </a>
-        <button
+        <a
+          href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc"
+          target="_blank"
           disabled
           className="text-white disabled:brightness-75 text-center w-62 text-lg leading-6 whitespace-nowrap bg-orange-500 self-stretch grow items-center px-5 py-3.5 rounded-[50px]"
         >
           {/* Join Mukna 2023 */}
-          Registration Opening Soon
-        </button>
+          Join Mukna 2023
+        </a>
       </div>
       {/* <button
         disabled

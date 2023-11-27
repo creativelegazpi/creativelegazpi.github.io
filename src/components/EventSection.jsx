@@ -29,8 +29,9 @@ function EventSection() {
                             DECEMBER 8-10, 2023
                         </div>
                         <a
-                            href="#"
-                            className="text-white text-center lg:text-lg md:text-3xl font-bold leading-6 whitespace-nowrap bg-black lg:h-14 md:h-36 lg:w-[199px] md:w-full max-w-full items-center mt-14 mb-48 px-5 lg:py-3.5 sm:py-10 rounded-[50px] self-end max-md:my-10"
+                            href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc"
+                            target="_blank"
+                            className="text-white hover:scale-110 transition-all duration-150 text-center lg:text-lg md:text-3xl font-bold leading-6 whitespace-nowrap bg-black lg:h-14 md:h-36 lg:w-[199px] md:w-full max-w-full items-center mt-14 mb-48 px-5 lg:py-3.5 sm:py-10 rounded-[50px] self-end max-md:my-10"
                         >
                             Learn More
                         </a>
@@ -41,7 +42,7 @@ function EventSection() {
                         <motion.div initial={{ x: 1000 }}
                             animate={{ x: isInView ? 0 : 1000 }}
                             transition={{ duration: 2, type: "spring", delay: 0.5 }} className="bg-cyan-400 h-[90vh] border-b-2 border-black md:h-full flex items-center justify-between gap-5 pl-12 pr-20 py-12 max-md:max-w-full max-md:flex-wrap max-md:px-5">
-                            <div className="flex basis-[0%] lg:-translate-y-4 md:translate-y-0 flex-col h-full justify-evenly items-stretch my-auto">
+                            <div className="flex basis-[0%] lg:translate-y-4 flex-col h-full justify-evenly items-stretch my-auto">
                                 <div className="text-black text-right lg:text-2xl md:text-3xl font-bold leading-7 whitespace-nowrap">
                                     7-8 Dec
                                 </div>
@@ -53,6 +54,7 @@ function EventSection() {
                                 </div>
                             </div>
                             <div className="flex grow basis-[0%] h-full justify-evenly flex-col items-stretch my-auto max-md:max-w-full">
+                                <h1 className="text-4xl text-black font-semibold mb-4">Schedule of Events</h1>
                                 <motion.a whileHover={{ scale: 1.05 }} href="#pulse">
                                     <div className="text-black lg:text-2xl md:text-3xl leading-7 max-md:max-w-full">
                                         <span className="font-bold">
@@ -90,7 +92,7 @@ function EventSection() {
                                         10am - 8pm
                                         <br />
                                     </span>
-                                    <span className="font-bold">Mukna Mukna Creative Expo</span>
+                                    <span className="font-bold">Mukna Creative Expo</span>
                                     <br />
                                     <span className="">@ Ayala Malls Legazpi</span>
                                 </div>

@@ -35,7 +35,7 @@ function FaqSection() {
                                 Wow! The event is FREE, how do I participate in this event?
                             </div>
                             <div className="collapse-content">
-                                <p className="text-black lg:text-md md:text-3xl">Yes the event is free, but slots are only limited. Check out the event schedule. <a href="#" className='text-blue-500 underline font-semibold'>Register here for the Mukná Conference</a>
+                                <p className="text-black lg:text-md md:text-3xl">Yes the event is free, but slots are only limited. Check out the event schedule. <a href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc" target='_blank' className='text-blue-500 underline font-semibold'>Register here for the Mukná Conference</a>
                                 </p>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ function FaqSection() {
                                 How do I register for the Creative Directory?
                             </div>
                             <div className="collapse-content">
-                                <p className="text-black lg:text-md md:text-3xl">Just fill out our registration form to be part of our creative players profile, register <a href="#" className='text-blue-500 underline font-semibold'>here</a></p>
+                                <p className="text-black lg:text-md md:text-3xl">Just fill out our registration form to be part of our creative players profile, register <a href="https://0hdw7ecun8a.typeform.com/to/JDyOCbVv" target='_blank' className='text-blue-500 underline font-semibold'>here</a></p>
                             </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-b-2">

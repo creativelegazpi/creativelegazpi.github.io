@@ -43,7 +43,7 @@ function Newsletter() {
                                         ref={ref}
                                     />
                                     <input type="checkbox" onChange={() => setDisabled(!disabled)} id="confirmation" className="lg:mt-4 md:mt-8 scale-150" name="confirmation" />
-                                    <label htmlFor="confirmation" className="ml-4 lg:text-lg md:text-3xl text-justify">By joining our newsletter list, you agree to receive news and updates from Creative Legazpi. You can opt out of our marketing emails anytime</label>
+                                    <label htmlFor="confirmation" className="ml-4 lg:text-lg md:text-3xl text-justify text-white">By joining our newsletter list, you agree to receive news and updates from Creative Legazpi. You can opt out of our marketing emails anytime</label>
 
                                 </div>
                                 <div id="mce-responses" className="clear foot">
