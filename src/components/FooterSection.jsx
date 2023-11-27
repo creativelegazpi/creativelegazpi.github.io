@@ -16,7 +16,34 @@ function FooterSection() {
 
                 </div>
             </div>
-            <p className="lg:hidden md:block text-5xl text-black leading-tight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur possimus ad incidunt voluptatum magnam sapiente itaque</p>
+            <div className="lg:hidden md:flex w-[80vw] h-[10vh] justify-evenly items-center text-black leading-tight">
+                <div>
+                    <p className="text-black text-sm">Presented by:</p>
+                    <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/5815612e-f3e8-43e7-8215-bf6539b69a13?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/5815612e-f3e8-43e7-8215-bf6539b69a13?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5815612e-f3e8-43e7-8215-bf6539b69a13?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/5815612e-f3e8-43e7-8215-bf6539b69a13?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/5815612e-f3e8-43e7-8215-bf6539b69a13?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/5815612e-f3e8-43e7-8215-bf6539b69a13?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/5815612e-f3e8-43e7-8215-bf6539b69a13?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/5815612e-f3e8-43e7-8215-bf6539b69a13?apiKey=61d96ebfcc1645058754f2d90f7b2466&"
+                        className="aspect-square object-contain object-center w-[100px]  overflow-hidden  max-w-full my-auto"
+                    />
+                </div>
+                <img
+                    loading="lazy"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/62946fab-50c3-47e1-b6c0-4090c33443ee?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/62946fab-50c3-47e1-b6c0-4090c33443ee?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/62946fab-50c3-47e1-b6c0-4090c33443ee?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/62946fab-50c3-47e1-b6c0-4090c33443ee?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/62946fab-50c3-47e1-b6c0-4090c33443ee?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/62946fab-50c3-47e1-b6c0-4090c33443ee?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/62946fab-50c3-47e1-b6c0-4090c33443ee?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/62946fab-50c3-47e1-b6c0-4090c33443ee?apiKey=61d96ebfcc1645058754f2d90f7b2466&"
+                    className="aspect-square object-contain object-center w-[100px] overflow-hidden shrink-0 max-w-full "
+                />
+                <img
+                    loading="lazy"
+                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/c6b24999-a96d-4956-9a7f-996379949773?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6b24999-a96d-4956-9a7f-996379949773?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6b24999-a96d-4956-9a7f-996379949773?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6b24999-a96d-4956-9a7f-996379949773?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6b24999-a96d-4956-9a7f-996379949773?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6b24999-a96d-4956-9a7f-996379949773?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6b24999-a96d-4956-9a7f-996379949773?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/c6b24999-a96d-4956-9a7f-996379949773?apiKey=61d96ebfcc1645058754f2d90f7b2466&"
+                    className="aspect-[1.01] object-contain object-center w-[100px] overflow-hidden shrink-0 max-w-full"
+                />
+                <div>
+                    <p className="text-sm text-black">Organized by:</p>
+                    <img
+                        loading="lazy"
+                        srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/44a70a4c-6f56-4d10-ae77-7ebec1bc0487?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/44a70a4c-6f56-4d10-ae77-7ebec1bc0487?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/44a70a4c-6f56-4d10-ae77-7ebec1bc0487?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/44a70a4c-6f56-4d10-ae77-7ebec1bc0487?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/44a70a4c-6f56-4d10-ae77-7ebec1bc0487?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/44a70a4c-6f56-4d10-ae77-7ebec1bc0487?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/44a70a4c-6f56-4d10-ae77-7ebec1bc0487?apiKey=61d96ebfcc1645058754f2d90f7b2466&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/44a70a4c-6f56-4d10-ae77-7ebec1bc0487?apiKey=61d96ebfcc1645058754f2d90f7b2466&"
+                        className="aspect-[1.98] object-contain object-center w-[192px] overflow-hidden shrink-0 max-w-full"
+                    />
+                </div>
+            </div>
             <div className="flex items-end gap-5 max-md:max-w-full lg:flex md:hidden max-md:flex-wrap justify-center">
                 <div>
                     <p className="text-black text-sm">Presented by:</p>
