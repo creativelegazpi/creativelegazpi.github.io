@@ -36,7 +36,7 @@ function Newsletter() {
                                     <input
                                         type="email"
                                         name="EMAIL"
-                                        className="aspect-[15.13] text-black text-center text-4xl focus-visible:border-orange-400 rounded-md  lg:p-4 md:p-10 object-contain object-center lg:w-[590px] md:w-full bg-white overflow-hidden self-center max-w-full lg:mt-4 md:mt-14"
+                                        className="aspect-[15.13] text-black text-center text-xl focus-visible:border-orange-400 rounded-md  lg:p-4 md:p-10 object-contain object-center lg:w-[590px] md:w-full bg-white overflow-hidden self-center max-w-full lg:mt-4 md:mt-14"
                                         id="mce-EMAIL"
                                         required=""
                                         defaultValue=""
