@@ -109,11 +109,15 @@ function NavBar() {
             strokeLinecap="round"
           />
         </motion.svg>
-        <img
-          loading="lazy"
-          src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="aspect-[2.37] object-center md:w-[200px] lg:w-[97px] scale-0 sm:scale-150 lg:ml-0 sm:ml-32 overflow-hidden max-w-full"
-          alt="Image description"
-        />
+        <div className="flex gap-20 lg:ml-0 md:-ml-12">
+          <img
+            loading="lazy"
+            src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="aspect-[2.37] object-center md:w-[400px] lg:w-[157px] overflow-hidden max-w-full"
+            alt="Image description"
+          />
+          <img src="/newheroimgs/MP_Original.webp" className=" object-contain object-center md:w-[250px] lg:w-[127px] scale-0 sm:scale-150  overflow-hidden max-w-full" alt="mplogo" />
+          <img src="/newheroimgs/logo-lunsodlunsad.png" className=" object-contain object-center md:w-[250px] lg:w-[97px] overflow-hidden max-w-full" alt="logolunsodlunsad" />
+        </div>
       </div>
       <div className="items-start [&:has(a:hover)>a:not(:hover)]:scale-[0.8] [&:has(a:hover)>a:hover]:scale-[1.2] transition-all duration-300 hidden lg:flex justify-between gap-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
         <a href="#teaser" className="transition-all duration-300 text-black text-lg leading-6 self-center my-auto">
