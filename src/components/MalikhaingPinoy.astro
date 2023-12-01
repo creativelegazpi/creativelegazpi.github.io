@@ -1,0 +1,33 @@
+---
+import { Image } from "astro:assets";
+---
+
+<div class="w-screen h-auto relative">
+  <Image
+    src="/newheroimgs/malikhaingpinoy.png"
+    width={100}
+    height={100}
+    alt="Astro"
+    class="w-full h-auto object-cover"
+  />
+  <div class="absolute top-0 w-full h-full flex justify-center items-center">
+    <div class="w-[65%] h-auto flex flex-col gap-8 justify-center items-center">
+      <img src="/newheroimgs/MP_Original.webp" alt="mklogo" />
+      <p class="text-lg text-black text-center">
+        Unveiling at the Philippine Creative Industries Summit, the Malikhaing
+        Pinoy Program, an initiative spearheaded by the DTI, is set to redefine
+        the landscape of creativity in the Philippines. This innovative program
+        is strategically designed to leverage Filipino ingenuity as a catalyst
+        for economic growth and recovery. Join us as we introduce a
+        transformative initiative dedicated to cultivating a resilient and
+        inclusive creative ecosystem, paving the way for a dynamic future in the
+        Philippines. Witness the power of creativity at the heart of economic
+        progress with the Malikhaing Pinoy Program.
+      </p>
+      <button
+        class="mt-10 uppercase hover:-translate-y-2 rounded-full hover:shadow-[0_4px_0px_0px_rgba(0,0,0,1)] text-white bg-[#922E7D] w-[325px] h-[52px] transition-all duration-200 ease-in-out"
+        >learn more</button
+      >
+    </div>
+  </div>
+</div>
