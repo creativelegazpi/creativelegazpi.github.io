@@ -126,7 +126,7 @@ function HeroSection() {
           </div>
           <div className="flex flex-col px-5 lg:translate-y-10 md:translate-y-14">
             <motion.h1 style={{ y: y7 }} className="text-black text-right lg:text-lg md:text-3xl font-extrabold leading-6 -mr-5 relative">
-              LEGAZPI CITY <br /> DECEMBER 8-10, 2023
+              LEGAZPI CITY <br /> DECEMBER 12-14, 2023
             </motion.h1>
             <motion.a
               href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc"
