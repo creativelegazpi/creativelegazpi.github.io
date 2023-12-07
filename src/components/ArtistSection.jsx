@@ -16,13 +16,12 @@ function ArtistSection() {
                     Explore, connect and network with the creative minds of Legazpi City
                 </p>
                 <div className="flex lg:flex-row md:flex-col w-full items-stretch justify-between lg:gap-2.5 md:gap-5 -mr-5 mt-10 pr-9 max-md:pr-5">
-                    <button
-                        href="#explore"
-                        disabled
+                    <a
+                        href="https://directory.creativelegazpi.ph"
                         className="text-white disabled:brightness-75 text-center lg:text-lg md:text-4xl leading-6 whitespace-nowrap bg-orange-500 grow items-center px-5 lg:py-3 md:py-8 rounded-[50px]"
                     >
                         Explore
-                    </button>
+                    </a>
                     <a
                         href="https://0hdw7ecun8a.typeform.com/to/JDyOCbVv"
                         target="_blank"
