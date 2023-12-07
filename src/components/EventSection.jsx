@@ -132,7 +132,7 @@ function EventSection() {
                                                     <span className="font-bold">Mukná Conference</span>
                                                 </div>
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="italic">9AM-6PM at Proxy by The Oriental</span>
+                                                    <span className="italic">9AM-6PM at The Pepperland Hotel</span>
                                                 </div>
                                             </div>
 
@@ -141,7 +141,7 @@ function EventSection() {
                                                     <span className="font-bold">Mukná Awards Night</span>
                                                 </div>
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="italic">7PM-11PM at The Oriental</span>
+                                                    <span className="italic">7PM-11PM at The Pepperland Hotel</span>
                                                 </div>
                                             </div>
                                         </motion.a>
