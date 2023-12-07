@@ -14,7 +14,7 @@ function HeroSection() {
   const y7 = useTransform(scrollspring, [0, 1], [40, -40])
 
   return (
-    <div className="w-screen lg:h-screen md:h-fit relative -mt-5" ref={ref}>
+    <div className="w-screen lg:h-screen md:h-fit relative" ref={ref}>
       <img src="/newheroimgs/bghero2.png" alt="bg-image" className="w-full h-full object-fill hidden lg:block" />
       <div className="w-screen h-fit lg:hidden">
         <img src="/newheroimgs/mobilebg.png" alt="mobilebg" className="w-full h-full lg:hidden md:block object-contain" />

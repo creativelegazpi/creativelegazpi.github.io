@@ -5,7 +5,7 @@ function NavBar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   return (
-    <div className="flex bg-white justify-between items-center gap-5 max-md:flex-wrap px-14 pb-4 pt-10">
+    <div className="flex bg-white justify-between items-center gap-5 max-md:flex-wrap px-14 py-4">
       <AnimatePresence>
         {navbarOpen && (
           <motion.div
@@ -70,15 +70,15 @@ function NavBar() {
           </motion.div>
         )}
       </AnimatePresence>
-      <div className="flex gap-20 md:p-10 lg:p-0">
+      <div className="flex py-7 lg:py-0 lg:py-10 lg:py-0">
         <motion.svg
-          width={80}
-          height={80}
+          width={60}
+          height={60}
           viewBox="0 0 23 20"
           animate={{ rotate: navbarOpen ? 90 : 0 }}
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="self-center w-full max-w-[77px] max-h-[80px] lg:hidden z-20"
+          className="self-center w-full max-w-[77px] max-h-[80px] lg:hidden z-20 pe-[2.5em]"
           onClick={() => setNavbarOpen(!navbarOpen)}
         >
           <line
@@ -109,43 +109,51 @@ function NavBar() {
             strokeLinecap="round"
           />
         </motion.svg>
-        <div className="flex gap-20 lg:ml-0 md:-ml-12">
-          <img
-            loading="lazy"
-            src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="aspect-[2.37] object-center md:w-[400px] lg:w-[157px] overflow-hidden max-w-full"
-            alt="Image description"
-          />
-          <img src="/newheroimgs/MP_Original.webp" className=" object-contain object-center md:w-[250px] lg:w-[127px] scale-0 sm:scale-150  overflow-hidden max-w-full" alt="mplogo" />
-          <img src="/newheroimgs/logo-lunsodlunsad.png" className=" object-contain object-center md:w-[250px] lg:w-[97px] overflow-hidden max-w-full" alt="logolunsodlunsad" />
+        <div className="flex items-center">
+          <div className="pe-[2.5em] lg:pe-[1.4em]">
+            <img src="/newheroimgs/MP_Original.webp" className="w-[250px] lg:w-[160px]" alt="Malikhaing Pinoy" />
+          </div>
+
+          <div className="pe-[2.5em] lg:pe-[1.4em]">
+            <img src="/newheroimgs/logo-lunsodlunsad.png" className="block w-[110px] lg:w-[75px]" alt="Lunson Lunsad" />
+          </div>
+
+          <div>
+            <img src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="block w-[120px] w-[80px]" alt="Creative Legazpi" />
+          </div>
         </div>
       </div>
-      <div className="items-start [&:has(a:hover)>a:not(:hover)]:scale-[0.8] [&:has(a:hover)>a:hover]:scale-[1.2] transition-all duration-300 hidden lg:flex justify-between gap-14 px-5 max-md:max-w-full max-md:flex-wrap max-md:justify-center">
-        <a href="#teaser" className="transition-all duration-300 text-black text-lg leading-6 self-center my-auto">
-          <h2>Mukna</h2>
+      <div className="items-start [&:has(a:hover)>a:not(:hover)]:scale-[0.8] [&:has(a:hover)>a:hover]:scale-[1.2] transition-all duration-300 hidden lg:flex justify-end ps-5">
+        <a href="#teaser" className="transition-all duration-300 text-black bs-lg:text-[1em] bs-xl:text-[1.2em] leading-6 self-center my-auto bs-lg:pe-[0.5em] bs-xl:pe-[1em]">
+          <h2>Mukná</h2>
         </a>
 
-        <a href="#directory" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
+        <a href="#directory" className="text-black transition-all duration-300 bs-lg:text-[1em] bs-xl:text-[1.2em leading-6 self-center my-auto bs-lg:px-[0.5em] bs-xl:px-[1em]">
           <h2>Directory</h2>
         </a>
-        <a href="#launchpad" className="text-black transition-all duration-300 text-lg leading-6 my-auto">
+
+        <a href="#launchpad" className="text-black transition-all duration-300 bs-lg:text-[1em] bs-xl:text-[1.2em leading-6 my-auto bs-lg:px-[0.5em] bs-xl:px-[1em]">
           <h2 >
             Launchpad
           </h2>
         </a>
-        <a href="#pulse" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
+
+        <a href="#pulse" className="text-black transition-all duration-300 bs-lg:text-[1em] bs-xl:text-[1.2em leading-6 self-center my-auto bs-lg:px-[0.5em] bs-xl:px-[1em]">
           <h2>Pulse</h2>
         </a>
-        <a href="#blog" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
+
+        <a href="#blog" className="text-black transition-all duration-300 bs-lg:text-[1em] bs-xl:text-[1.2em leading-6 self-center my-auto bs-lg:px-[0.5em] bs-xl:px-[1em]">
           <h2>Blog</h2>
         </a>
-        <a href="#FAQ" className="text-black transition-all duration-300 text-lg leading-6 self-center my-auto">
+
+        <a href="#FAQ" className="text-black transition-all duration-300 bs-lg:text-[1em] bs-xl:text-[1.2em leading-6 self-center my-auto bs-lg:px-[0.5em] bs-xl:px-[1em]">
           <h2>FAQ</h2>
         </a>
+
         <a
           href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc"
           target="_blank"
-          disabled
-          className="text-white disabled:brightness-75 text-center w-62 text-lg leading-6 whitespace-nowrap bg-orange-500 self-stretch grow items-center px-5 py-3.5 rounded-[50px]"
+          className="text-white disabled:brightness-75 text-center w-62 leading-6 whitespace-nowrap bg-orange-500 self-stretch grow items-center px-5 pt-2 pb-[0.6em] rounded-[50px] ms-[1em]"
         >
           {/* Join Mukna 2023 */}
           Join Mukna 2023
