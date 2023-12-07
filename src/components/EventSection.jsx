@@ -173,8 +173,8 @@ function EventSection() {
                                                     <span className="font-bold">Mukná Arts Tour</span>
                                                 </div>
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="italic">Tour around creative spaces in Legazpi</span>
-                                                    <span className="italic">9AM onwards</span>
+                                                    <div className="italic">Tour around creative spaces in Legazpi</div>
+                                                    <div className="italic">9AM onwards</div>
                                                 </div>
                                             </div>
                                         </motion.a>
