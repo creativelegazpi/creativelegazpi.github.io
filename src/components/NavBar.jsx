@@ -70,7 +70,7 @@ function NavBar() {
           </motion.div>
         )}
       </AnimatePresence>
-      <div className="flex py-7 lg:py-0 lg:py-10 lg:py-0">
+      <div className="flex py-7 lg:py-0">
         <motion.svg
           width={60}
           height={60}
@@ -119,7 +119,7 @@ function NavBar() {
           </div>
 
           <div>
-            <img src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="block w-[120px] w-[80px]" alt="Creative Legazpi" />
+            <img src="/newheroimgs/Creative Legazpi_LogoOutline.svg" className="block w-[120px] lg:w-[80px]" alt="Creative Legazpi" />
           </div>
         </div>
       </div>
