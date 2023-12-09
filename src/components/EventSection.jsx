@@ -42,7 +42,7 @@ function EventSection() {
                             <a
                                 href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc"
                                 target="_blank"
-                                className="block px-[80px] lg:px-[60px] xl:px-[80px] py-[15px] text-[1.2em] pb-[0.9em] text-white hover:scale-110 transition-all duration-150 text-center font-bold leading-6 bg-black rounded-[50px]"
+                                className="block px-[80px] lg:px-[60px] xl:px-[80px] py-[15px] text-[1.2em] pb-[0.9em] text-white hover:scale-110 transition-all duration-150 text-center leading-6 bg-black rounded-[50px]"
                             >
                                 Learn More
                             </a>
@@ -89,8 +89,11 @@ function EventSection() {
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
                                                     <span className="font-bold">Creative Freelancing &amp; Gig Economy Virtual Conference</span>
                                                 </div>
-                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
+                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-2">
                                                     <span className="italic">1PM-5PM via Zoom</span>
+                                                </div>
+                                                <div>
+                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScvvebfwI2ON2jK0FO7LVw4EWyYdPUKi_8VVHcamTBSi-gWOw/viewform" target="_blank" className="px-[30px] pt-[6px] text-[0.9em] pb-[8px] text-white hover:scale-110 transition-all duration-150 text-center leading-6 bg-black rounded-[50px]">Register here for free</a>
                                                 </div>
                                             </div>
                                         </motion.a>
@@ -127,12 +130,16 @@ function EventSection() {
 
                                     <div className="flex-grow mb-5">
                                         <motion.a whileHover={{ scale: 1.05 }}>
-                                            <div className="mb-3">
+                                            <div className="mb-5">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
                                                     <span className="font-bold">Mukná Conference</span>
                                                 </div>
-                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
+                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-2">
                                                     <span className="italic">9AM-6PM at The Pepperland Hotel</span>
+                                                </div>
+
+                                                <div>
+                                                    <a href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc" target="_blank" className="px-[30px] pt-[6px] text-[0.9em] pb-[8px] text-white hover:scale-110 transition-all duration-150 text-center leading-6 bg-black rounded-[50px]">Register here for free</a>
                                                 </div>
                                             </div>
 
