@@ -196,7 +196,51 @@ function EventSection() {
                             </div>
                         </motion.div>
 
-                        <div className="bg-[#65B791] h-[200px] flex pl-0 flex-col py-px max-md:max-w-full"></div>
+                        <div className="bg-[#65B791] h-[200px] flex justify-center items-center px-[50px]">
+                            <div className='px-4'>
+                                <p className="text-black mb-4">Presented by:</p>
+
+                                <div className="flex justify-center items-center">
+                                    <div className="px-3">
+                                        <img
+                                            loading="lazy"
+                                            srcSet="/home/logos/dti.webp"
+                                            className="w-[auto] max-h-[70px] h-full"
+                                        />
+                                    </div>
+
+                                    <div className="px-3">
+                                        <img
+                                            loading="lazy"
+                                            srcSet="/home/logos/legazpi-city.webp"
+                                            className="w-[auto] max-h-[70px] h-full"
+                                        />
+                                    </div>
+
+                                    <div className="px-3">
+                                        <img
+                                            loading="lazy"
+                                            srcSet="/home/logos/legazpi-city-creative-industry-council.webp"
+                                            className="w-[auto] max-h-[70px] h-full"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='px-4'>
+                                <p className="text-black mb-4">Organized by:</p>
+
+                                <div className="flex justify-center items-center">
+                                    <div className="px-3">
+                                        <img
+                                            loading="lazy"
+                                            srcSet="/home/logos/cheers-studio.webp"
+                                            className="w-[auto] max-h-[70px] h-full"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
