@@ -73,9 +73,9 @@ function EventSection() {
 
                                     <div className="flex-grow">
                                         <motion.a whileHover={{ scale: 1.05 }}>
-                                            <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-3">OPENING</div>
+                                            <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-4">OPENING</div>
 
-                                            <div className="mb-3">
+                                            <div className="mb-4">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
                                                     <span className="font-bold">Creative Industry Expo </span>
                                                     <span className="text-[0.9em]">(ribbon cutting and mural reveal)</span>
@@ -85,11 +85,17 @@ function EventSection() {
                                                 </div>
                                             </div>
 
+                                            <div className="mb-1">
+                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
+                                                    <span className="font-bold">GIG Economy, the LEGAZPI Way</span>
+                                                </div>
+                                            </div>
+
                                             <div className="mb-2">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
                                                     <span className="font-bold">Creative Freelancing &amp; Gig Economy Virtual Conference</span>
                                                 </div>
-                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-2">
+                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-3">
                                                     <span className="italic">1PM-5PM via Zoom</span>
                                                 </div>
                                                 <div>
@@ -164,9 +170,9 @@ function EventSection() {
 
                                     <div className="flex-grow">
                                         <motion.a whileHover={{ scale: 1.05 }}>
-                                            <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-3">CLOSING</div>
+                                            <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-4">CLOSING</div>
 
-                                            <div className="mb-3">
+                                            <div className="mb-4">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
                                                     <span className="font-bold">Mukná Arts Day</span>
                                                 </div>
