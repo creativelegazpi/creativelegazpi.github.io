@@ -138,10 +138,6 @@ function NavBar() {
           </h2>
         </a>
 
-        <a href="#pulse" className="text-black transition-all duration-300 bs-lg:text-[1em] bs-xl:text-[1.2em leading-6 self-center my-auto bs-lg:px-[0.5em] bs-xl:px-[1em]">
-          <h2>Pulse</h2>
-        </a>
-
         <a href="#blog" className="text-black transition-all duration-300 bs-lg:text-[1em] bs-xl:text-[1.2em leading-6 self-center my-auto bs-lg:px-[0.5em] bs-xl:px-[1em]">
           <h2>Blog</h2>
         </a>
