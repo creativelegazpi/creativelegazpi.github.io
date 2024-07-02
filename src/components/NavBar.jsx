@@ -23,7 +23,7 @@ function NavBar() {
                 animate={{ y: 0 }}
                 transition={{ duration: 0.7, ease: "backOut" }}
                 className="text-black text-[70px] font-semibold leading-6 self-center my-auto">
-                Mukna
+                Hello
               </motion.a>
               <motion.a
                 href="#directory"
