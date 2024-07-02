@@ -33,7 +33,7 @@ function EventSection() {
                         </div>
 
                         <div className="text-black text-center lg:text-right text-[1.6em] lg:text-[1.3em] xl:text-[1.4em] font-extrabold leading-6 mt-10 mb-[60px] leading-[1.3em]">
-                            LEGAZPI CITY
+                         CITY
                             <br />
                             DECEMBER 12-14, 2024
                         </div>
