@@ -39,7 +39,7 @@ function NavBar() {
                 initial={{ y: "-100vh" }}
                 animate={{ y: 0 }}
                 transition={{ duration: 0.7, ease: "backOut", delay: 0.2 }} className="text-black text-[70px] font-semibold leading-6 my-auto">
-                Launchpad
+                Launchpad 2024
               </motion.a>
               <motion.a
                 href="#pulse"
