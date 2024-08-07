@@ -123,7 +123,7 @@ function HeroSection() {
 
       <div className="absolute right-[24vw] top-[92vw] lg:right-[37vw] lg:top-[38vw]">
         <motion.h1 style={{ y: y7 }} className="text-black text-right text-[3vw] lg:text-[1.5vw] font-extrabold relative">
-          LEGAZPI CITY <br /> DECEMBER 12-14, 2023
+          LEGAZPI CITY <br /> AUGUST 8=31, 2024
         </motion.h1>
       </div>
 
