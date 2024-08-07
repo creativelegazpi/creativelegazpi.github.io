@@ -137,7 +137,7 @@ function HeroSection() {
           role="presentation"
 
         >
-          Join Mukna 2023
+          Ibalong Festival 2024
         </motion.a>
         {/* <div className="bg-slate-500 w-80 h-52 rounded-3xl opacity-0 absolute top-0 left-0 peer-hover:opacity-100 hover:opacity-100 sm:hidden lg:block transition-opacity duration-200 ease-in">
 
