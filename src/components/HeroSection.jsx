@@ -14,6 +14,7 @@ function HeroSection() {
   const y7 = useTransform(scrollspring, [0, 1], [40, -40])
 
   return (
+
     <div className="w-full relative" ref={ref}>
       <img src="/newheroimgs/bghero2.webp" alt="bg-image" className="w-full object-fill hidden lg:block" />
     <div className="w-full relative" ref={ref}>
@@ -157,7 +158,6 @@ function HeroSection() {
             </p>
           </div>
         </div> */}
-      </div>
       </div>
     </div>
   );
