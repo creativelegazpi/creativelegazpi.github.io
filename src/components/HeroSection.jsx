@@ -27,7 +27,7 @@ function HeroSection() {
       <img src="/newheroimgs/muknalogo.png" alt="logo" className="absolute bottom-32 right-10 hidden lg:block animate-bounce" />
 
       <div className="absolute right-[24vw] top-[23vw] lg:right-[37vw] lg:top-[6.8vw]">
-        <motion.svg
+     
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
@@ -87,7 +87,7 @@ function HeroSection() {
             stroke="black"
             strokeMiterlimit={10}
           />
-        </motion.svg>
+     
       </div>
 
       <div className="absolute right-[24vw] top-[54vw] lg:right-[37vw] lg:top-[21.5vw]">
@@ -153,7 +153,7 @@ function HeroSection() {
             </h1>
             <p className="text-white text-sm font-normal leading-6 mt-2 ml-6">
               Stay up to date with the latest news and updates from the
-              Mukna 2023 team.<br />
+              Ibalong Festival 2024 team.<br />
               <a href="https://www.facebook.com/creativelegazpi" className="underline text-blue-200 text-lg" target="_blank">Be sure to check our facebook page for more information.</a>
             </p>
           </div>
