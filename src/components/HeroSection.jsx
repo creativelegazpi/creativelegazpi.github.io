@@ -16,7 +16,7 @@ function HeroSection() {
   return (
 
     <div className="w-full relative" ref={ref}>
-      <img src="/newheroimgs/bghero2.webp" alt="bg-image" className="w-full object-fill hidden lg:block" />
+      <img src="/newheroimgs/bghero22.webp" alt="bg-image" className="w-full object-fill hidden lg:block" />
     
       <div className="w-full h-fit lg:hidden">
         <img src="/newheroimgs/mobilebg.png" alt="mobilebg" className="w-full h-full lg:hidden md:block object-contain" />
@@ -139,7 +139,7 @@ function HeroSection() {
           role="presentation"
 
         >
-          Ibalong Festival 2024
+          Ibalong Festival 
         </motion.a>
         {/* <div className="bg-slate-500 w-80 h-52 rounded-3xl opacity-0 absolute top-0 left-0 peer-hover:opacity-100 hover:opacity-100 sm:hidden lg:block transition-opacity duration-200 ease-in">
 
