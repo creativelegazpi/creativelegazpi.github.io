@@ -15,6 +15,8 @@ function HeroSection() {
 
   return (
     <div className="w-full relative" ref={ref}>
+      <img src="/newheroimgs/bghero2.webp" alt="bg-image" className="w-full object-fill hidden lg:block" />
+    <div className="w-full relative" ref={ref}>
       <div className="w-full h-fit lg:hidden">
         <img src="/newheroimgs/mobilebg.png" alt="mobilebg" className="w-full h-full lg:hidden md:block object-contain" />
       </div>
