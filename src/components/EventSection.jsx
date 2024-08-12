@@ -91,7 +91,7 @@ function EventSection() {
                                                 </div>
                                             </div>
                                         </motion.a> </div> 
-                                 
+                                 </div>
                                 </div>
 
                                 <div className="flex w-full mb-5">
