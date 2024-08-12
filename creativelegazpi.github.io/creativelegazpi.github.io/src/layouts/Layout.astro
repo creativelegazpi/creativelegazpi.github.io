@@ -1,0 +1,129 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+import NavBar from "../components/NavBar.jsx";
+import { SEO } from "astro-seo";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <SEO
+      title="Creative Legazpi"
+      description="Mukná Creative Event on Dec 12-14, 2024 in Legazpi City"
+      image="https://directory-creativelegazpi.vercel.app/newheroimgs/ogimage.png"
+      url="https://directory-creativelegazpi.vercel.app"
+      openGraph={{
+        basic: {
+          title: "Creative Legazpi",
+          type: "website",
+          description: "Mukná Creative Event on Dec 12-14, 2024 in Legazpi City",
+          image:
+            "https://directory-creativelegazpi.vercel.app/newheroimgs/ogimage.png",
+          url: "https://directory-creativelegazpi.vercel.app",
+        },
+      }}
+      extend={{
+        meta: [
+          {
+            name: "twitter:card",
+            content: "summary_large_image",
+          },
+          {
+            name: "twitter:domain",
+            content: "directory-creativelegazpi.vercel.app",
+          },
+          {
+            name: "twitter:url",
+            content: "https://directory-creativelegazpi.vercel.app",
+          },
+          {
+            name: "twitter:title",
+            content: "Creative Legazpi",
+          },
+          {
+            name: "twitter:description",
+            content: "Mukná Creative Event on Dec 12-14, 2024 in Legazpi City",
+          },
+          {
+            name: "twitter:image",
+            content:
+              "https://directory-creativelegazpi.vercel.app/newheroimgs/ogimage.png",
+          },
+        ],
+      }}
+    />
+    <meta charset="UTF-8" />
+
+    <!-- HTML Meta Tags -->
+    <meta
+      name="description"
+      content="Mukná Creative Event on Dec 12-14, 2024 in Legazpi City"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta
+      property="og:url"
+      content="https://directory-creativelegazpi.vercel.app"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Creative Legazpi" />
+    <meta
+      property="og:description"
+      content="Mukná Creative Event on Dec 12-14, 2024 in Legazpi City"
+    />
+    <meta
+      property="og:image"
+      content="https://directory-creativelegazpi.vercel.app/newheroimgs/ogimage.png"
+    />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:domain"
+      content="directory-creativelegazpi.vercel.app"
+    />
+    <meta
+      property="twitter:url"
+      content="https://directory-creativelegazpi.vercel.app"
+    />
+    <meta name="twitter:title" content="Creative Legazpi" />
+    <meta
+      name="twitter:description"
+      content="Mukná Creative Event on Dec 12-14, 2024 in Legazpi City"
+    />
+    <meta
+      name="twitter:image"
+      content="https://directory-creativelegazpi.vercel.app/newheroimgs/ogimage.png"
+    />
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/newheroimgs/Creative Legazpi_LogoOutline.svg"
+    />
+
+    <title>{title}</title>
+  </head>
+  <body>
+    <!-- <NavBar client:only /> -->
+    <slot />
+
+    <style is:global>
+      /* * {
+        border: 1px solid red;
+      } */
+      body {
+        overflow-x: hidden;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </body>
+</html>

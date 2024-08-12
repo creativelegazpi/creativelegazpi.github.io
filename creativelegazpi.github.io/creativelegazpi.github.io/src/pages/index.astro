@@ -1,0 +1,30 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HeroSection from "../components/HeroSection";
+import TeaserSection from "../components/TeaserSection";
+import NavBar from "../components/NavBar";
+import EventSection from "../components/EventSection";
+import ArtistSection from "../components/ArtistSection";
+import CreativeLaunchpad from "../components/CreativeLaunchpad";
+import FaqSection from "../components/FaqSection";
+import Newsletter from "../components/Newsletter";
+import FooterSection from "../components/FooterSection";
+import CookieConsent from "../components/CookieConsent.astro";
+import MalikhaingPinoy from "../components/MalikhaingPinoy.astro";
+---
+
+<Layout title="Creative Legazpi">
+  <!-- <CookieConsent /> -->
+  <NavBar client:only />
+  <HeroSection client:only />
+  <TeaserSection />
+  <EventSection client:only />
+  <ArtistSection client:only />
+  <CreativeLaunchpad client:only />
+  <MalikhaingPinoy />
+  <FaqSection client:only />
+  <Newsletter client:only />
+  <FooterSection />
+</Layout>
+
+<style></style>
