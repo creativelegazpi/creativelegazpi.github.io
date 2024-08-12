@@ -90,8 +90,8 @@ function EventSection() {
                                                     <span className="font-bold">Search for Lakan ng Ibalong </span>
                                                 </div>
                                             </div>
-                                        </motion.a>
-                                </div>   
+                                        </motion.a> </div> 
+                                 
                                 </div>
 
                                 <div className="flex w-full mb-5">
