@@ -142,7 +142,7 @@ function NavBar() {
           <h2>FAQ</h2>
         </a>
         <a
-          href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc"
+          href="https://legazpi.gov.ph/activities-3/"
           target="_blank"
           disabled
           className="text-white disabled:brightness-75 text-center w-62 text-lg leading-6 whitespace-nowrap bg-orange-500 self-stretch grow items-center px-5 py-3.5 rounded-[50px]"
