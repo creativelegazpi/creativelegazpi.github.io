@@ -90,8 +90,8 @@ function EventSection() {
                                                     <span className="font-bold">Search for Lakan ng Ibalong </span>
                                                 </div>
                                             </div>
-
-                                          
+                                        </motion.a>
+                                </div>   
                                 </div>
 
                                 <div className="flex w-full mb-5">
@@ -159,7 +159,7 @@ function EventSection() {
                                     <div className="flex-grow">
                                         <motion.a whileHover={{ scale: 1.05 }}>
                                             <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-4">CLOSING</div>
-
+                                        
                                             <div className="mb-4">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
                                                     <span className="font-bold">Mukná Arts Day</span>
