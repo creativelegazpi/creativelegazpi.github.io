@@ -8,47 +8,7 @@ function EventSection() {
     return (
         <div id="event">
             <section ref={ref} className="flex flex-col lg:flex-row items-stretch">
-                <div className="lg:w-[39%] md:w-full max-md:ml-0">
-                    <motion.div
-                        initial={{ x: -1000 }}
-                        animate={{ x: isInView ? 0 : -1000 }}
-                        transition={{ duration: 2, type: "spring" }} className="py-[80px] bg-orange-500 lg:h-full lg:border-r-2 lg:border-b-0 md:border-b-2 border-black flex flex-col w-full mx-auto px-20 max-md:max-w-full max-md:px-5">
-
-                        <div className="text-center">
-                            <img
-                                loading="lazy"
-                                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/11c43fdf-a8bb-47b6-90a6-e3cd15a3c23e?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&"
-                                className="aspect-[3.6] object-contain object-center inline w-[400px] lg:w-full overflow-hidden self-stretch"
-                                alt="Conference Image 1"
-                            />
-                        </div>
-
-                        <div className="text-center lg:text-end">
-                            <img
-                                loading="lazy"
-                                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e846f257-6d16-4cca-93aa-dc4ad9154b05?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e846f257-6d16-4cca-93aa-dc4ad9154b05?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e846f257-6d16-4cca-93aa-dc4ad9154b05?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e846f257-6d16-4cca-93aa-dc4ad9154b05?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e846f257-6d16-4cca-93aa-dc4ad9154b05?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e846f257-6d16-4cca-93aa-dc4ad9154b05?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e846f257-6d16-4cca-93aa-dc4ad9154b05?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e846f257-6d16-4cca-93aa-dc4ad9154b05?apiKey=a9c78a43f27145ccb5f12b07f1adc09a&"
-                                className="aspect-[2.5] object-contain object-center inline w-[200px] lg:w-[140px] xl:w-[180px] xxl:w-[200px] overflow-hidden max-w-full mt-2 self-end"
-                                alt="Conference Image 2"
-                            />
-                        </div>
-
-                        <div className="text-black text-center lg:text-right text-[1.6em] lg:text-[1.3em] xl:text-[1.4em] font-extrabold leading-6 mt-10 mb-[60px] leading-[1.3em]">
-                         Legazpi City
-                            <br />
-                                August 8-31,
-                        </div>
-
-                        <div className="flex justify-center lg:justify-end">
-                            <a
-                                href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc"
-                                target="_blank"
-                                className="block px-[80px] lg:px-[60px] xl:px-[80px] py-[15px] text-[1.2em] pb-[0.9em] text-white hover:scale-110 transition-all duration-150 text-center leading-6 bg-black rounded-[50px]"
-                            >
-                                Learn More
-                            </a>
-                        </div>
-                    </motion.div>
-                </div>
+              
 
                 <div className="flex flex-col items-stretch lg:w-[61%] h-full md:w-full max-md:ml-0">
                     <div className="flex h-full flex-col max-md:max-w-full">
