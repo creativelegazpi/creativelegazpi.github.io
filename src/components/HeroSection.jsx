@@ -44,7 +44,11 @@ function HeroSection() {
         <motion.a
           href="https://legazpi.gov.ph/activities-3/"
           target="_blank"
-       
+          style={{ y: y6 }}
+          whileHover={{ scale: 1.05 }}
+          className="bg-[#01E9D9] self-end flex flex-col rounded-full text-black border-2 border-black text-center text-[4vw] lg:text-[1.4vw] font-semibold whitespace-nowrap items-center px-[6vw] py-[0.7vw] disabled:brightness-75 shadow-[0_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[0_6px_0px_0px_rgba(0,0,0,1)] transition-all peer"
+          role="presentation"
+
         >
           Ibalong Festival 2024
         </motion.a>
