@@ -20,7 +20,7 @@ function EventSection() {
                                 <div className="flex flex-wrap w-full">
                                     <div className="min-w-[120px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[170px]"></div>
                                     <div className="flex-grow">
-                                        <h1 className="text-[2em] text-black font-semibold mb-4">Calendar of Activities</h1>
+                                        <h1 className="text-[2em] text-black font-semibold mb-4">Calendar </h1>
                                     </div>
                                 </div>
 
