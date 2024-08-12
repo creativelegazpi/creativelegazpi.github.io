@@ -70,7 +70,7 @@ function EventSection() {
                                             08 Aug
                                         </div>
                                     </div>
-
+                                </div>
                                     <div className="flex-grow">
                                         <motion.a whileHover={{ scale: 1.05 }}>
                                             <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-4">OPENING</div>
