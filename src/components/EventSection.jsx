@@ -35,7 +35,7 @@ function EventSection() {
                         <div className="text-black text-center lg:text-right text-[1.6em] lg:text-[1.3em] xl:text-[1.4em] font-extrabold leading-6 mt-10 mb-[60px] leading-[1.3em]">
                          Legazpi City
                             <br />
-                                August 8-31,
+                                August 8-31, 2024
                         </div>
 
                         <div className="flex justify-center lg:justify-end">
