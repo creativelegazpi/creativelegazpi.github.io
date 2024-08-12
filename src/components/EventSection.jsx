@@ -35,7 +35,7 @@ function EventSection() {
                         <div className="text-black text-center lg:text-right text-[1.6em] lg:text-[1.3em] xl:text-[1.4em] font-extrabold leading-6 mt-10 mb-[60px] leading-[1.3em]">
                          Legazpi City
                             <br />
-                                August 
+                                A
                         </div>
 
                         <div className="flex justify-center lg:justify-end">
@@ -64,35 +64,7 @@ function EventSection() {
                                     </div>
                                 </div>
 
-                                <div className="flex w-full mb-5">
-                                    <div className="min-w-[120px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[170px]">
-                                        <div className="text-black text-[1.4em] font-bold leading-7 whitespace-nowrap">
-                                            08 Aug
-                                        </div>
-                                    </div>
-
-                                    <div className="flex-grow">
-                                        <motion.a whileHover={{ scale: 1.05 }}>
-                                            <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-4">OPENING</div>
-
-                                            <div className="mb-4">
-                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="font-bold">Opening & Ribbon-cutting of Agri Fair, Beer Plaza,& Baratillo </span>
-        
-                                                </div>
-                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="italic">Sawangan Park</span>
-                                                </div>
-                                            </div>
-
-                                            <div className="mb-1">
-                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="font-bold">Search for Lakan ng Ibalong </span>
-                                                </div>
-                                            </div>
-                                        </motion.a> </div> 
-                                 </div>
-                                </div>
+                            
 
                                 <div className="flex w-full mb-5">
                                     <div className="min-w-[120px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[170px]">
