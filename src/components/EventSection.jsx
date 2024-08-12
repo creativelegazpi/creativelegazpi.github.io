@@ -60,14 +60,14 @@ function EventSection() {
                                 <div className="flex flex-wrap w-full">
                                     <div className="min-w-[120px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[170px]"></div>
                                     <div className="flex-grow">
-                                        <h1 className="text-[2em] text-black font-semibold mb-4">Schedule of Events</h1>
+                                        <h1 className="text-[2em] text-black font-semibold mb-4">Calendar of Activities</h1>
                                     </div>
                                 </div>
 
                                 <div className="flex w-full mb-5">
                                     <div className="min-w-[120px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[170px]">
                                         <div className="text-black text-[1.4em] font-bold leading-7 whitespace-nowrap">
-                                            12 Dec
+                                            08 Aug
                                         </div>
                                     </div>
 
