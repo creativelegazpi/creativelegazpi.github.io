@@ -60,14 +60,14 @@ function EventSection() {
                                 <div className="flex flex-wrap w-full">
                                     <div className="min-w-[120px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[170px]"></div>
                                     <div className="flex-grow">
-                                        <h1 className="text-[2em] text-black font-semibold mb-4">Schedule of Events</h1>
+                                        <h1 className="text-[2em] text-black font-semibold mb-4">Calendar of Activities</h1>
                                     </div>
                                 </div>
 
                                 <div className="flex w-full mb-5">
                                     <div className="min-w-[120px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[170px]">
                                         <div className="text-black text-[1.4em] font-bold leading-7 whitespace-nowrap">
-                                            12 Dec
+                                            08 Aug
                                         </div>
                                     </div>
 
@@ -77,39 +77,27 @@ function EventSection() {
 
                                             <div className="mb-4">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="font-bold">Creative Industry Expo </span>
-                                                    <span className="text-[0.9em]">(ribbon cutting and mural reveal)</span>
+                                                    <span className="font-bold">Opening & Ribbon-cutting of Agri Fair, Beer Plaza,& Baratillo </span>
+        
                                                 </div>
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="italic">2PM at Ayala Malls Legazpi City</span>
+                                                    <span className="italic">Sawangan Park</span>
                                                 </div>
                                             </div>
 
                                             <div className="mb-1">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="font-bold">GIG Economy, the LEGAZPI Way</span>
+                                                    <span className="font-bold">Search for Lakan ng Ibalong </span>
                                                 </div>
                                             </div>
 
-                                            <div className="mb-2">
-                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="font-bold">Creative Freelancing &amp; Gig Economy Virtual Conference</span>
-                                                </div>
-                                                <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-3">
-                                                    <span className="italic">1PM-5PM via Zoom</span>
-                                                </div>
-                                                <div>
-                                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScvvebfwI2ON2jK0FO7LVw4EWyYdPUKi_8VVHcamTBSi-gWOw/viewform" target="_blank" className="px-[30px] pt-[6px] text-[0.9em] pb-[8px] text-white hover:scale-110 transition-all duration-150 text-center leading-6 bg-black rounded-[50px]">Register here for free</a>
-                                                </div>
-                                            </div>
-                                        </motion.a>
-                                    </div>
+                                          
                                 </div>
 
                                 <div className="flex w-full mb-5">
                                     <div className="min-w-[120px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[170px]">
                                         <div className="text-black text-[1.4em] font-bold leading-7 whitespace-nowrap">
-                                            12-14 Dec
+                                            09-Aug
                                         </div>
                                     </div>
 
@@ -117,10 +105,10 @@ function EventSection() {
                                         <motion.a whileHover={{ scale: 1.05 }}>
                                             <div className="">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="font-bold">Creative Industry Expo and Art Exhibit</span>
+                                                    <span className="font-bold">9 Opening Ceremonies</span>
                                                 </div>
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="italic">Mall Hours at Ayala Malls Legazpi City</span>
+                                                    <span className="italic">" ▪ Eucharistic Mass"</span>
                                                 </div>
                                             </div>
                                         </motion.a>
