@@ -97,7 +97,7 @@ function EventSection() {
                                 <div className="flex w-full mb-5">
                                     <div className="min-w-[120px] md:min-w-[140px] lg:min-w-[160px] xl:min-w-[170px]">
                                         <div className="text-black text-[1.4em] font-bold leading-7 whitespace-nowrap">
-                                            12-14 Dec
+                                            09-Aug
                                         </div>
                                     </div>
 
@@ -105,10 +105,10 @@ function EventSection() {
                                         <motion.a whileHover={{ scale: 1.05 }}>
                                             <div className="">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="font-bold">Creative Industry Expo and Art Exhibit</span>
+                                                    <span className="font-bold">9 Opening Ceremonies</span>
                                                 </div>
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="italic">Mall Hours at Ayala Malls Legazpi City</span>
+                                                    <span className="italic">" ▪ Eucharistic Mass"</span>
                                                 </div>
                                             </div>
                                         </motion.a>
