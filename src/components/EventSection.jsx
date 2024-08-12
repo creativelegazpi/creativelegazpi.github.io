@@ -77,11 +77,11 @@ function EventSection() {
 
                                             <div className="mb-4">
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="font-bold">Creative Industry Expo </span>
-                                                    <span className="text-[0.9em]">(ribbon cutting and mural reveal)</span>
+                                                    <span className="font-bold">Opening & Ribbon-cutting of Agri Fair, Beer Plaza,& Baratillo </span>
+        
                                                 </div>
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
-                                                    <span className="italic">2PM at Ayala Malls Legazpi City</span>
+                                                    <span className="italic">Sawangan Park</span>
                                                 </div>
                                             </div>
 
