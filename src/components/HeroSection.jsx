@@ -41,17 +41,11 @@ function HeroSection() {
       </div>
 
       <div className="absolute right-[24vw] top-[107vw] lg:right-[37vw] lg:top-[45.3vw]">
-        <motion.a
-          href="https://partiful.com/e/QcGsGgyNDz50EMop2yAc"
-          target="_blank"
-          style={{ y: y6 }}
-          whileHover={{ scale: 1.05 }}
-          className="bg-[#01E9D9] self-end flex flex-col rounded-full text-black border-2 border-black text-center text-[4vw] lg:text-[1.4vw] font-semibold whitespace-nowrap items-center px-[6vw] py-[0.7vw] disabled:brightness-75 shadow-[0_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[0_6px_0px_0px_rgba(0,0,0,1)] transition-all peer"
-          role="presentation"
+       
 
-        >
+        
           Ibalong Festival 2024
-        </motion.a>
+        
         {/* <div className="bg-slate-500 w-80 h-52 rounded-3xl opacity-0 absolute top-0 left-0 peer-hover:opacity-100 hover:opacity-100 sm:hidden lg:block transition-opacity duration-200 ease-in">
 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 text-slate-600 absolute -right-10 scale-150 bottom-20">
@@ -65,7 +59,7 @@ function HeroSection() {
             <p className="text-white text-sm font-normal leading-6 mt-2 ml-6">
               Stay up to date with the latest news and updates from the
               Ibalong Festival 2024 team.<br />
-              <a href="https://www.facebook.com/creativelegazpi" className="underline text-blue-200 text-lg" target="_blank">Be sure to check our facebook page for more information.</a>
+              <a href="https://legazpi.gov.ph/activities-3/" className="underline text-blue-200 text-lg" target="_blank">Be sure to check our facebook page for more information.</a>
             </p>
           </div>
         </div> */}
