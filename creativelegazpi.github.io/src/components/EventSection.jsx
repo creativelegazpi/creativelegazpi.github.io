@@ -93,7 +93,7 @@ function EventSection() {
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full">
                                                     <span className="font-bold">Creative Freelancing &amp; Gig Economy Virtual Conference</span>
                                                 </div>
-                                                </div>
+                                                </motion.div>
                                                 <div className="text-black text-[1.4em] leading-7 max-md:max-w-full mb-3">
                                                     <span className="italic">1PM-5PM via Zoom</span>
                                                 </div>
